@@ -4,11 +4,11 @@ description: Notes about Mysql
 slug: language-mysql
 date: 2022-07-05 00:00:00+0000
 categories:
-    - Language
+    - Mysql
 tags:
     - study
     - Database
-    - Language
+    - Programming languages
     - Mysql
     - CS
 weight: 1

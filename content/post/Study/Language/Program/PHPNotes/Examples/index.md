@@ -4,11 +4,11 @@ description: Examples about PHP
 slug: language-php-examples
 date: 2022-07-05 00:00:00+0000
 categories:
-    - Language
+    - PHP
 tags:
     - study
     - Database
-    - Language
+    - Programming languages
     - PHP
     - CS
 weight: 1
