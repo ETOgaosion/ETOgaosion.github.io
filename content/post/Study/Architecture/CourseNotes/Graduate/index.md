@@ -185,7 +185,7 @@ DDR5结构和数据：
     - DIMM(一个卡槽slot一个DIMM)(Dual Inline Memory Module)
         - Rank(一面一个Rank)，64位
             - Chip(一面8个Chip)，8位
-                - Bank(一个Chip8个Bank)
+                - Bank Group(一个Chip8个Bank Group)
                     - Row/Colomn
 
 读过程：

@@ -128,5 +128,30 @@ class ParallelMLP(MegatronModule):
 
 ```
 
-## 整体架构
+![parallel](photos/parallels.png)
 
+### PipeDream
+
+flush三阶段:
+
+- 预热前向传播阶段（warmup forward passes）：在这里，除了最后一个stage，每个worker 会做前向计算，进行不同数目的前向传播，并且向其下游发送激活，一直到最后一个stage被激发。该计划将执行中的（in-flight）微批次数量（未完成反向传播且需要保持激活的微批次数量）限制在流水线深度之内，而不是一个批次中的微批次数量。
+- 稳定 1F1B 阶段（Run 1F1B in steady state）：进入稳定状态之后，每个 worker 都进行1F1B 操作。
+- 冷却反向传播阶段（Cooldown backward passes）：此阶段会把执行中的（in-flight）的微批次执行完毕，只是执行反向计算和向反向计算下游发送梯度。
+
+pipeline parallelism需要inter-stage的P2P通信，其主要实现是`_communnicate`函数，`_communicate` 函数主要是封装了 PyTorch 的基础通信函数，给流水线并行提供了stage之间的双向P2P通信
+
+稳定阶段：
+
+1. forward_step ：拿到一个微批次（上游激活），进行本地前向计算。
+2. send_forward：
+    1. 如果只是前向传播，则调用send_forward把本地结算结果发送给下游。
+    2. 否则调用 send_forward_recv_backward : 本地计算结果发给下游，再从下游接受其梯度。
+3. 每个 worker 在 input_tensor 之中保存上游激活，在output_tensor 之中保存发送给下游的激活。
+4. backward_step : 本地后向计算。
+    1. 从队列中弹出第一个未处理的（就是最早未处理的）上游激活。
+    2. 从队列弹出对应的本地激活。
+    3. 进行反向计算，利用(上游激活，本地激活，下游梯度)来对最早的未处理的微批次进行反向计算，得到本地梯度。
+5. send_backward：
+    1. 如果是最后一个微批次，只需要把本地梯度 input_tensor_grad 传递给前向计算的上游。
+    2. 否则调用 send_backward_recv_forward 把本地梯度 input_tensor_grad 传递给前向计算的上游，还需要从上游再获取一个激活值。
+6. 跳回1继续处理下一个微批次（上游激活）。
