@@ -58,7 +58,7 @@ $$f(n)=g(n)+h(n)$$
 
 可采纳的树搜索最优：反证法，假设A\*算法的解不是最优的，则最优解的任意祖先f都更小，必然先被扩展，最优解将比A\*算法的解先被扩展，因此必然能找到最优解
 
-一致的图搜索最优：类似的反证法
+一致的图搜索最优：归纳
 
 ### 局部搜索
 
@@ -135,7 +135,7 @@ BNF范式，否定$\neg$，合取、析取、蕴含、等价
 - 有效性：在所有模型中为真
 - 可满足性：某些模型中为真
 
-归结定理可靠+完备：证明$KB\vdash \alpha$，需证明$KB\land \neg \alpha$不可满足，$S=\{KB,\neg\alpha\}$，RC(S)为归结闭包，则证明$S=\{KB,\neg\alpha\}\Rightarrow$RC(S)包含空子句，即证逆否命题：RC(S)不包含空子句，则S可满足
+归结定理可靠+完备：证明$KB\vdash \alpha$，需证明$KB\land \neg \alpha$不可满足，$S=\{KB,\neg\alpha\}$，RC(S)为归结闭包，则证明S不可满足$\Rightarrow$RC(S)包含空子句，即证逆否命题：RC(S)不包含空子句，则S可满足
 
 构造model，S的原子命题$R_{1},\cdots, R_{l}$，RC(S)子句中包含$\neg R_{i}$，其他文字被指派为False，则$R_{i}$被指派为True，否则指派为False。只需证明该真值指派使RC(S)所有子句为真即S是可满足的。假设第一个False子句，可能是False$\lor$False$\cdots R_{i}$和False$\lor$False$\cdots \neg R_{i}$，满足归结，且归结后为False
 
