@@ -259,3 +259,21 @@ OmniAuth是策略模式的一个示例
 依赖注入
 
 通过将依赖关系的创建和维护责任转移到外部容器中，使得类不需要自己实例化依赖对象，而是由外部容器动态地注入依赖。
+
+## Languages
+
+Ruby
+
+- **局部变量（Local variables）**：在 Ruby 中，局部变量以小写字母或下划线 `_` 开头，而不是以 `$` 开头。以 `$` 开头的是全局变量（Global variables）。
+- **实例变量（Instance variables）**：实例变量以 `@` 开头。这些变量是对象实例专有的，不能被其他对象访问。
+- **变量（Class variables）**：类变量以 `@@` 开头。这些变量在类的所有实例之间共享，属于类而不是某个具体的对象实例。
+
+## Questions
+
+根据依赖注入原则（Dependency Injection Principle, DIP），我们应该将高层模块依赖于抽象而非具体实现，以提高代码的测试性、可维护性和模块化程度。
+
+行为模式：责任链、命令、迭代器、中介者、备忘录、观察者、状态、策略、模板方法、访问者
+
+- lambda 是 Proc 对象的特殊类型，但它不是 Proc 对象。
+- proc 和 lambda 都会检查参数数量，如果参数数量不匹配会抛出错误。
+- proc 和 lambda 对 return 关键字的含义不同。在 lambda 中，return 会从 lambda 中返回，而在 proc 中，return 会从包含 proc 的方法中返回，而不是从 proc 本身返回。
