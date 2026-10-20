@@ -1,5 +1,92 @@
-<!doctype html><meta charset="utf-8">
-<title>Stock Analyze</title>
-<meta http-equiv="refresh" content="0; url=all_news_impact.html">
-<link rel="canonical" href="all_news_impact.html">
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>量化交易研究报告</title>
 <meta name="robots" content="noindex">
+<style>
+  :root{
+    --bg:#faf7f2; --card:#ffffff; --line:#ece7de; --ink:#1c1c1e;
+    --sub:#8a8578; --accent:#c0392b; --warm:#b5560f;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    font-family:-apple-system,'PingFang SC','Microsoft YaHei',Arial,sans-serif;
+    background:var(--bg);color:var(--ink);
+    display:flex;align-items:center;justify-content:center;
+    padding:48px 24px;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{width:100%;max-width:920px}
+  header{margin-bottom:34px;animation:rise .6s cubic-bezier(.22,1,.36,1) both}
+  h1{font-size:30px;font-weight:750;letter-spacing:.5px}
+  header p{margin-top:10px;color:var(--sub);font-size:14px}
+  header .date{display:inline-block;margin-top:14px;font-size:12px;color:var(--sub)}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  a.card{
+    position:relative;display:flex;flex-direction:column;
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:30px 30px 26px;text-decoration:none;color:inherit;min-height:248px;
+    transition:transform .38s cubic-bezier(.34,1.56,.64,1),
+               border-color .3s ease, background .3s ease;
+    animation:rise .6s cubic-bezier(.22,1,.36,1) both;
+  }
+  a.card:nth-child(1){animation-delay:.08s}
+  a.card:nth-child(2){animation-delay:.18s}
+  a.card:hover{transform:translateY(-4px) scale(1.012);border-color:var(--ink)}
+  a.card:active{transform:translateY(-1px) scale(1.004)}
+  .idx{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--sub)}
+  a.card:nth-child(1) .idx{color:var(--accent)}
+  a.card:nth-child(2) .idx{color:var(--warm)}
+  h2{font-size:21px;font-weight:700;margin:14px 0 10px;line-height:1.35}
+  .desc{font-size:13.5px;color:#5d584e;line-height:1.7;flex:1}
+  .meta{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 20px}
+  .meta span{font-size:11.5px;color:#777062;background:#f7f3ec;border:1px solid #efe9df;
+    padding:3px 11px;border-radius:11px;white-space:nowrap}
+  .go{display:flex;align-items:center;font-size:13.5px;font-weight:650;
+    border-top:1px solid var(--line);padding-top:16px;margin-top:auto}
+  .go b{font-weight:650}
+  .go .arrow{margin-left:auto;transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
+  a.card:hover .arrow{transform:translateX(5px)}
+  a.card:nth-child(1) .go{color:var(--accent)}
+  a.card:nth-child(2) .go{color:var(--warm)}
+  footer{margin-top:30px;text-align:center;color:#b3ada0;font-size:12px;
+    animation:rise .6s .3s cubic-bezier(.22,1,.36,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  @media (max-width:720px){
+    .cards{grid-template-columns:1fr}
+    a.card{min-height:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>量化交易研究报告</h1>
+    <p>美股 / 港股市场数据驱动的事件研究与大盘脉搏监控</p>
+    <span class="date">最近更新 · 2026-10-20</span>
+  </header>
+
+  <div class="cards">
+    <a class="card" href="all_news_impact.html">
+      <div class="idx">REPORT 01</div>
+      <h2>全量新闻 × 股价影响</h2>
+      <div class="desc">2009–2026 年 10 万余条公司新闻逐条对齐反应交易日，给出隔夜跳空、当日 / 3 日超额收益与分主题筛选。</div>
+      <div class="meta"><span>2009–2026</span><span>104,138 条新闻</span><span>分公司明细</span></div>
+      <div class="go"><b>进入报告</b><span class="arrow">→</span></div>
+    </a>
+
+    <a class="card" href="market_pulse.html">
+      <div class="idx">REPORT 02</div>
+      <h2>美股 × 港股大盘脉搏</h2>
+      <div class="desc">标普 / 纳指 / 道指 / 罗素 / 费半 / VIX 与恒生系列指数实时动向、板块轮动热力，近 3 周关键新闻按反应日对齐大盘涨跌。</div>
+      <div class="meta"><span>每日更新</span><span>9 大指数</span><span>11 个板块</span></div>
+      <div class="go"><b>进入报告</b><span class="arrow">→</span></div>
+    </a>
+  </div>
+
+  <footer>QuantTradingAgentApp · Event Study &amp; Market Pulse</footer>
+</div>
+</body>
+</html>
