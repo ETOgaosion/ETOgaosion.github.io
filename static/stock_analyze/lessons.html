@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>四条交易经验 · 宏观事件研究</title>
+<style>
+:root{--ink:#1a1a1a;--sub:#5b6770;--line:#e8e1d5;--warm:#faf7f1;
+  --blue:#2350a8;--red:#c0392b;--green:#1e7e45}
+*{box-sizing:border-box}
+body{font-family:-apple-system,'PingFang SC','Microsoft YaHei',Arial,sans-serif;
+  max-width:1060px;margin:0 auto;padding:30px 26px 60px;color:var(--ink);
+  background:#fff;line-height:1.6}
+h1{font-size:27px;margin:0 0 4px}
+.lead{color:var(--sub);font-size:14px;margin:0 0 4px}
+.date{color:#999;font-size:12.5px;margin-bottom:26px}
+h2{font-size:21px;margin:46px 0 4px;padding-top:22px;border-top:2px solid #111;
+  display:flex;align-items:baseline;gap:10px}
+h2 .no{font-size:13px;color:#fff;background:#111;border-radius:5px;padding:2px 9px;
+  font-weight:600;letter-spacing:1px}
+h2 .en{color:#aaa;font-size:12.5px;font-weight:400}
+.verdict{background:var(--warm);border:1px solid var(--line);border-radius:12px;
+  padding:15px 20px;margin:14px 0 18px;font-size:15.5px}
+.verdict b{color:#111}
+.verdict .big{font-size:16.5px}
+ul{margin:10px 0 4px;padding-left:22px}
+li{margin:7px 0;font-size:14px}
+li b{color:#111}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:12px 0}
+th,td{border:1px solid var(--line);padding:6px 10px}
+th{background:var(--warm);font-weight:600;color:#333;text-align:center;white-space:nowrap}
+td{text-align:right;font-variant-numeric:tabular-nums}
+td.ev{text-align:left;white-space:normal}
+tr:nth-child(even){background:#fdfbf7}
+.up{color:var(--green);font-weight:600}
+.down{color:var(--red);font-weight:600}
+.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:9px;margin-right:6px}
+.tag.work{background:#e7f3ec;color:var(--green)}
+.tag.fail{background:#fbeae8;color:var(--red)}
+.tag.mix{background:#efe9dd;color:#7a6533}
+.note{border-left:3px solid var(--blue);background:#f6f8fd;border-radius:0 8px 8px 0;
+  padding:10px 16px;font-size:13px;color:#33415c;margin:14px 0}
+.caveat{font-size:12.5px;color:#8a8a8a;margin-top:6px}
+footer{margin-top:50px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;
+  color:#888}
+footer a{color:var(--blue);text-decoration:none;margin-right:14px;white-space:nowrap}
+</style></head><body>
+<h1>从 40 年大事件里学到的四条交易经验</h1>
+<p class="lead">全部来自本项目事件研究的真实数据：150 次 FOMC、30 场战争/地缘冲突、20 次金融危机与救市、1986 年以来的标普 500。</p>
+<p class="date">数据截至 2026-10-16 · 历史统计，不构成投资建议 · QuantTradingAgentApp</p>
+<h2><span class='no'>01</span>战争与原油<span class='en'>War × Oil</span></h2><div class='verdict'>规则只有一条：<span class='big'><b>断了原油贸易（海峡、管道、炼厂）才疯涨；远方的战争只是噪音，当天跳一下、一个月吐光。停火则回落。</b></span></div><ul><li><b>供应型（打中海峡 / 管道 / 炼油厂）：原油疯涨且涨得住。</b>霍尔木兹封锁后 20 个交易日 +49%；俄乌（担心俄油断供）20 日 +20%。</li><li><b>情绪型（远方开战、不碰油路）：当天小跳一下，一个月全吐光。</b>16 次开战/升级当天虽有 14/16 收涨，但平均只 +2%，20 日后平均回到原点，仅 25% 还能维持涨幅。</li><li><b>停火/缓和：油价当天大概率回落</b>（7 次里 5 次下跌，平均 −2%）。</li><li>例外陷阱：沙特炼厂被炸当天 +12%，但产能几周修复，20 日后 −13%——<b>脉冲多大取决于供给缺口持续多久，不取决于战争规模。</b></li></ul><table><thead><tr><th>事件</th><th>关键事实</th><th>当天</th><th>5 日后</th><th>20 日后</th><th>类型</th></tr></thead><tbody><tr><td class="ev">2026 霍尔木兹海峡被封</td><td>供应真断：海峡关闭</td><td>+6.0%</td><td>—</td><td><span class="up">+49%</span></td><td><span class="tag work">供应型</span></td></tr>
+<tr><td class="ev">2022 俄乌战争爆发</td><td>市场担心俄油被制裁</td><td>+0.0%</td><td>—</td><td><span class="up">+20%</span></td><td><span class="tag work">供应型</span></td></tr>
+<tr><td class="ev">2019 沙特阿美炼厂被炸</td><td>占全球 5% 产能瞬时停产</td><td><span class="up">+12%</span></td><td><span class="down">-5%</span></td><td><span class="down">-13%</span></td><td><span class="tag mix">修复太快</span></td></tr>
+<tr><td class="ev">2025 十二日战争开打</td><td>没碰运输通道</td><td>+70.0%</td><td>-50.0%</td><td>-60.0%</td><td><span class="tag fail">情绪型</span></td></tr>
+<tr><td class="ev">2020 刺杀苏莱曼尼</td><td>远方冲突、不断油</td><td>+30.0%</td><td>-60.0%</td><td><span class="down">-20%*</span></td><td><span class="tag fail">情绪型</span></td></tr>
+<tr><td class="ev">2014 俄罗斯吞并克里米亚</td><td>远方冲突、不断油</td><td>+20.0%</td><td>-30.0%</td><td>-20.0%</td><td><span class="tag fail">情绪型</span></td></tr>
+<tr><td class="ev">16 次开战/升级（均值）</td><td>当天 14/16 收涨</td><td><b>+2.0%</b></td><td><b>≈0%</b></td><td><b>≈0%</b></td><td>—</td></tr></tbody></table><div class="caveat">* 2020 苏莱曼尼后 20 日的跌幅主要由 COVID 与沙特/俄罗斯油价战造成，不能算在战争头上。原油用 USO（跟踪 WTI 近月期货的纯油价基金），不是埃克森美孚等石油公司股票；2006 年才上市，1990/2003 战争无此数据。</div><h2><span class='no'>02</span>美国救市到底管不管用<span class='en'>Do Bailouts Work</span></h2><div class='verdict'><b>流动性危机，一救一个准（60 日后平均 +9%）；偿付危机，救市拦不住下跌，真正的底在数周到数月之后。</b></div><ul><li><b>“救市不管用”只对了一半：要看救的是流动性还是资不抵债。</b></li><li><b>流动性挤兑型 → 一救就灵。</b>LTCM、SVB 存款兜底、瑞信重组、英国养老金，60 日后标普全部上涨，平均约 <b>+9%</b>。问题是“有钱就能还”，央行直接当最后贷款人。</li><li><b>资不抵债型 → 救市当天拦不住。</b>2008 年 TARP 通过后当天仍跌 1.4%，20 日 −12%、60 日 −19%；真正的底在半年后的 2009 年 3 月。有毒资产不会因一纸法案消失。</li><li><b>危机第一次出手通常不是底。</b>贝尔斯登（2008-03）后还有雷曼；紧急降息当天往往最惨——2020-03-16 降到零当天 −12%，但配合财政刺激后 60 日 +30%。</li></ul><table><thead><tr><th>救市动作</th><th>定性</th><th>当天</th><th>20 日后</th><th>60 日后</th></tr></thead><tbody><tr><td class="ev">2008-10-03 TARP 7000 亿救市案通过</td><td><span class="tag fail">没止住</span></td><td>-1.4%</td><td>-11.9%</td><td>-19.0%</td></tr>
+<tr><td class="ev">2008-09-29 国会否决 TARP</td><td><span class="tag fail">恐慌</span></td><td>-8.8%</td><td>-23.3%</td><td>-22.0%</td></tr>
+<tr><td class="ev">2008-03-17 贝尔斯登由美联储兜底贱卖</td><td><span class="tag mix">短暂反弹</span></td><td>-0.9%</td><td>+4.5%</td><td>+4.6%</td></tr>
+<tr><td class="ev">1998-09-23 美联储组织救助 LTCM</td><td><span class="tag work">有效</span></td><td>+3.5%</td><td>+0.4%</td><td>+10.7%</td></tr>
+<tr><td class="ev">2023-03-13 美联储/财政部兜底 SVB 全部存款</td><td><span class="tag work">有效</span></td><td>-0.1%</td><td>+6.6%</td><td>+10.7%</td></tr>
+<tr><td class="ev">2023-03-20 瑞银被迫收购瑞信</td><td><span class="tag work">有效</span></td><td>+0.9%</td><td>+5.1%</td><td>+10.7%</td></tr>
+<tr><td class="ev">2022-09-28 英国央行紧急买国债救养老金</td><td><span class="tag work">有效</span></td><td>+2.0%</td><td>+3.0%</td><td>+2.8%</td></tr>
+<tr><td class="ev">2020-03-16 紧急降息到零 + QE（当天）</td><td><span class="tag fail">当天没用</span></td><td>-12.0%</td><td>—</td><td>—</td></tr></tbody></table><div class="note">用法：看到“央行出手”先问——市场缺的是<b>现金</b>还是<b>资本金</b>？前者可以追反弹，后者（2008 式）每次救市反弹都是出货机会，底在最后一次救市之后。</div><h2><span class='no'>03</span>总统与金融市场<span class='en'>Presidents × Market</span></h2><div class='verdict'><b>别按党派交易：年化差距主要是小布什撞上两次崩盘的运气。真正有信号的是任期年份——中期年躺平、选前年最肥。</b></div><ul><li><b>表面看民主党任期完胜：</b>民主党 20 年（克林顿+奥巴马+拜登）年化 <b>+13.7%</b>，共和党 19.7 年年化仅 <b>+4.9%</b>。但差距几乎被<b>小布什一个人</b>解释——他任内撞上互联网泡沫破裂 + 2008 金融危机，任期 −40%。</li><li><b>样本只有 5 位总统、且崩盘点落在谁任期里很大程度是运气</b>，把党派当成择时信号在统计上不成立。特朗普Ⅰ 年化 +14% 比拜登 +12% 还高。</li><li><b>真正稳定的规律是“任期第几年”，与党派无关：</b></li></ul><table><thead><tr><th>周期位置</th><th>年均收益</th><th>中位数</th><th>收阳比例</th></tr></thead><tbody><tr><td class="ev">选后第 1 年</td><td>+17.1%</td><td>+21.4%</td><td>90%</td></tr>
+<tr><td class="ev">中期选举年（第 2 年）</td><td>+0.8%</td><td>−1.5%</td><td>44%</td></tr>
+<tr><td class="ev">选前年（第 3 年）</td><td>+16.4%</td><td>+21.9%</td><td>80%</td></tr>
+<tr><td class="ev">选举年（第 4 年）</td><td>+6.0%</td><td>+11.0%</td><td>80%</td></tr></tbody></table><table style='margin-top:16px'><thead><tr><th>总统任期</th><th>党</th><th>任期总收益</th><th>年化</th><th>最大回撤</th></tr></thead><tbody><tr><td class="ev">里根（余）</td><td>R</td><td><span class="up">+24%</span></td><td><span class="up">+7.7%</span></td><td>-34%</td></tr>
+<tr><td class="ev">老布什</td><td>R</td><td><span class="up">+51%</span></td><td><span class="up">+10.9%</span></td><td>-20%</td></tr>
+<tr><td class="ev">克林顿</td><td>D</td><td><span class="up">+210%</span></td><td><span class="up">+15.2%</span></td><td>-19%</td></tr>
+<tr><td class="ev">小布什</td><td>R</td><td><span class="down">-40%</span></td><td><span class="down">-6.2%</span></td><td>-52%</td></tr>
+<tr><td class="ev">奥巴马</td><td>D</td><td><span class="up">+182%</span></td><td><span class="up">+13.8%</span></td><td>-23%</td></tr>
+<tr><td class="ev">特朗普Ⅰ</td><td>R</td><td><span class="up">+70%</span></td><td><span class="up">+14.1%</span></td><td>-34%</td></tr>
+<tr><td class="ev">拜登</td><td>D</td><td><span class="up">+56%</span></td><td><span class="up">+11.7%</span></td><td>-25%</td></tr>
+<tr><td class="ev">特朗普Ⅱ*</td><td>R</td><td><span class="up">+27%</span></td><td><span class="up">+14.6%</span></td><td>-19%</td></tr></tbody></table><ul><li><b>政策风格的影响是局部的：</b>减税/放松监管落地初期利好风险资产；加关税/贸易战制造波动但不改变大趋势；真正决定任期收益的是<b>估值起点 + 货币周期 + 是否撞上危机</b>。</li><li><b>中期年最差（平均 ≈0），选前年最好（+16%）</b>——政策刺激通常在选前出台，这是比“谁当选”可靠得多的日历规律。</li></ul><div class="caveat">* 特朗普Ⅱ 为不完整任期（截至 2026-10-16）。指数用 ^GSPC 价格指数（不含分红），长期年化若计入股息每年约高 1.5–2%。</div><h2><span class='no'>04</span>加息与降息<span class='en'>Hikes × Cuts</span></h2><div class='verdict'><b>没有绝对导向：意外 &gt; 加减方向，周期位置 &gt; 动作本身。首次降息是警报，最后一次加息是买点。</b></div><ul><li><b>加息不必然跌、降息不必然涨——方向本身几乎没有信息量。</b>加息当天只有 33% 收涨，但拿 3 个月 62% 收涨；按兵不动反而最稳（3 个月 78% 收涨、+3.6%）。</li><li><b>市场交易的是“意外”：</b>符合预期的加息落地 = 不确定性消除，2022 年加 75bp 当天 +2.6%、加 50bp 当天 +3.0%；超预期的紧急降息反而 −12%——因为它告诉市场“出事了”。</li><li><b>周期位置比动作方向重要：</b><br>① <b>首次加息</b>通常要消化阵痛（2015 首次加息后 1 个月 −9%）；<br>② <b>最后一次加息往往是中期买点</b>（2018 末次加息后 3 个月 +13%，紧缩到头）；<br>③ <b>首次降息是警报不是礼物</b>（2019 当天 −1.1%），因为降息是经济变坏的结果；<br>④ <b>降息初期最危险</b>（2008、2020 都在跌势里），降息中后期才进入牛市。</li></ul><table><thead><tr><th>FOMC 动作</th><th>当天收涨</th><th>当天均值</th><th>1 个月后</th><th>3 个月后</th><th>3 个月收涨</th></tr></thead><tbody><tr><td class="ev">加息（21 次）</td><td>33%</td><td>+0.08%</td><td>+0.3%</td><td>+1.2%</td><td>62%</td></tr>
+<tr><td class="ev">降息（14 次）</td><td>43%</td><td>+0.34%</td><td>+0.1%</td><td>-0.5%</td><td>64%</td></tr>
+<tr><td class="ev">按兵不动（103 次）</td><td>52%</td><td>+0.19%</td><td>+1.3%</td><td>+3.6%</td><td>78%</td></tr></tbody></table><table style='margin-top:14px'><thead><tr><th>关键转折点</th><th>当天 / 3 个月</th><th>解读</th></tr></thead><tbody><tr><td class="ev">2015-12 本轮首次加息</td><td><span class="down">当天 +1.5% / 1月 −9.3%</span></td><td>首次紧缩，阵痛</td></tr>
+<tr><td class="ev">2018-12 最后一次加息</td><td><span class="up">当天 −1.5% / 3月 +13.0%</span></td><td>紧缩结束=买点</td></tr>
+<tr><td class="ev">2023-07 最后一次加息</td><td><span class="up">当天 ≈0 / 3月 −6.3%</span></td><td>之后靠 AI 行情才转涨</td></tr>
+<tr><td class="ev">2019-07 金融危机后首次降息</td><td><span class="down">当天 −1.1% / 3月 +1.0%</span></td><td>要连续宽松，只给一次翻脸</td></tr>
+<tr><td class="ev">2024-09 首次降息 50bp</td><td><span class="down">当天 −0.3% / 3月 +7.7%</span></td><td>短空长多</td></tr>
+<tr><td class="ev">2020-03 紧急降息到零</td><td><span class="down">当天 −12.0% / 3月 +33.7%</span></td><td>危机中的降息是警报</td></tr></tbody></table><div class="note">一句话：<b>“实际动作 − 市场预期”才是当天波动的来源；中期方向取决于处在货币周期的哪一段。</b>机械地加息做空、降息做多，长期是亏的。</div>
+<footer><a href="macro_event_report.html">人话版事件清单（80 个事件明细）</a><a href="macro_event_report_vol1.html">第一卷：FOMC 与战争</a><a href="macro_event_report_vol2.html">第二卷：季节、选举、财政与危机</a><a href="all_news_impact.html">全量新闻影响图</a><a href="index.html">报告首页</a></footer>
+</body></html>

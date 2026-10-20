@@ -8,7 +8,7 @@
 <style>
   :root{
     --bg:#faf7f2; --card:#ffffff; --line:#ece7de; --ink:#1c1c1e;
-    --sub:#8a8578; --c1:#c0392b; --c2:#b5560f; --c3:#2350a8;
+    --sub:#8a8578; --c1:#c0392b; --c2:#b5560f; --c3:#2350a8; --c4:#3a6b4a;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{height:100%}
@@ -23,7 +23,7 @@
   h1{font-size:30px;font-weight:750;letter-spacing:.5px}
   header p{margin-top:10px;color:var(--sub);font-size:14px}
   header .date{display:inline-block;margin-top:14px;font-size:12px;color:var(--sub)}
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
   a.card{
     position:relative;display:flex;flex-direction:column;
     background:var(--card);border:1px solid var(--line);border-radius:16px;
@@ -35,6 +35,7 @@
   a.card:nth-child(1){animation-delay:.06s}
   a.card:nth-child(2){animation-delay:.15s}
   a.card:nth-child(3){animation-delay:.24s}
+  a.card:nth-child(4){animation-delay:.33s}
   a.card:hover{transform:translateY(-5px) scale(1.012);border-color:var(--ink);
     box-shadow:0 18px 40px -20px rgba(28,28,30,.18)}
   a.card:active{transform:translateY(-1px) scale(1.004)}
@@ -42,6 +43,7 @@
   a.card:nth-child(1) .idx{color:var(--c1)}
   a.card:nth-child(2) .idx{color:var(--c2)}
   a.card:nth-child(3) .idx{color:var(--c3)}
+  a.card:nth-child(4) .idx{color:var(--c4)}
   h2{font-size:20px;font-weight:700;margin:14px 0 10px;line-height:1.35}
   .desc{font-size:13.5px;color:#5d584e;line-height:1.7;flex:1}
   .meta{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 20px}
@@ -55,6 +57,7 @@
   a.card:nth-child(1) .go{color:var(--c1)}
   a.card:nth-child(2) .go{color:var(--c2)}
   a.card:nth-child(3) .go{color:var(--c3)}
+  a.card:nth-child(4) .go{color:var(--c4)}
   footer{margin-top:30px;text-align:center;color:#b3ada0;font-size:12px;
     animation:rise .6s .34s cubic-bezier(.22,1,.36,1) both}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -94,6 +97,14 @@
       <h2>全量新闻 × 个股影响</h2>
       <div class="desc">2009–2026 年 10 万余条公司新闻逐条对齐反应交易日，给出隔夜跳空、当日 / 3 日超额收益与中文摘要、主题、产品筛选。</div>
       <div class="meta"><span>2009–2026</span><span>104,138 条新闻</span><span>35 家公司</span></div>
+      <div class="go"><b>进入报告</b><span class="arrow">→</span></div>
+    </a>
+
+    <a class="card" href="lessons.html">
+      <div class="idx">REPORT 04 · 经验结论</div>
+      <h2>四条用真金白银换来的交易经验</h2>
+      <div class="desc">战争只在掐断原油供应时才推动油价；救市分流动性危机与资不抵债两种结局；总统党派不如任期年份有用；加息降息没有绝对方向——意外与周期位置才是关键。每条都附逐事件真实数字。</div>
+      <div class="meta"><span>4 条规则</span><span>1986–2026</span><span>标普500 · WTI</span></div>
       <div class="go"><b>进入报告</b><span class="arrow">→</span></div>
     </a>
   </div>
