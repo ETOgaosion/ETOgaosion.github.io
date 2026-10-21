@@ -79,4 +79,27 @@
 <div class='take'><b>一句话怎么用：</b>战争爆发当天别恐慌割肉（尤其没断油的），盯原油；崩盘等政府/央行救市信号再分批买；政府关门和评级下调砸的坑大多会填回；选举别赌第一天、持有选后一个季度；9 月偏谨慎，月末月初和冬半年偏乐观。<b>这些是历史统计的概率，不是因果，单次都可能被别的新闻改写。</b></div>
 <p class='meta' style='margin-top:18px'><b>数据口径：</b>价格来自 FMP 历史日线。股指用标普500（1986 年起）；原油、黄金、能源/金融/科技板块的基金 2000–2008 年才上市，更早的战争这些列显示“—”（不编造）。板块/基金未含分红，对几天的窗口影响很小。事件日期为人工校准，剔除了“分析师评论、财报冒充大新闻”等噪声。</p>
 <footer>QuantTradingAgentApp · research/macro_event_study · 人话版事件清单 · 生成于 2026-10-19 · 历史统计，不构成投资建议<br>深入阅读：<a href='macro_event_report_vol1.html'>第一卷：FOMC 与战争事件研究</a> · <a href='macro_event_report_vol2.html'>第二卷：日历季节、选举、财政与危机</a></footer>
+<style id="mfix2">
+@media(max-width:640px){
+ table.sx:not(.sx-end){
+  -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%);
+  mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%)}
+ .news .src{overflow-wrap:anywhere}
+}
+</style>
+<script>
+(function(){
+ var mq=window.matchMedia('(max-width:640px)');
+ function upd(t){if(!mq.matches)return;
+  var ov=t.scrollWidth>t.clientWidth+2;
+  t.classList.toggle('sx',ov);
+  t.classList.toggle('sx-end',ov&&t.scrollLeft+t.clientWidth>=t.scrollWidth-2);}
+ function scan(){document.querySelectorAll('table').forEach(upd);}
+ document.addEventListener('scroll',function(e){var t=e.target&&e.target.closest&&e.target.closest('table');if(t)upd(t);},true);
+ document.addEventListener('toggle',function(){setTimeout(scan,60);},true);
+ window.addEventListener('resize',scan);
+ if(mq.addEventListener)mq.addEventListener('change',scan);else mq.addListener(scan);
+ scan();setTimeout(scan,600);
+})();
+</script>
 </body></html>

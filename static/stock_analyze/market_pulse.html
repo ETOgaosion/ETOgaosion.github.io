@@ -56,7 +56,7 @@ label.chk{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:
 .mkt{font-size:10.5px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px}
 
 @media(max-width:640px){
- body{padding:20px 14px 60px}
+ body{padding:20px 14px 60px;overflow-x:hidden}
  h1{font-size:21px}
  .bar div{min-width:0;flex:1 1 45%;padding:8px 12px}
  .sec{font-size:15px;margin:26px 0 8px}
@@ -65,7 +65,8 @@ label.chk{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:
  .dayh{gap:8px;flex-wrap:wrap}
  .dayh .dt{min-width:0}
  .news{grid-template-columns:42px 1fr auto;padding-left:14px;gap:2px 8px}
- .news .ttl{min-width:0}
+ .news .ttl{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+ .news .zh{overflow-wrap:anywhere;word-break:break-word}
  .news .dtag{display:none}
  .news>span:nth-child(2){grid-column:1/-1;grid-row:2}
  .news>span:last-child{grid-column:3;grid-row:1;white-space:nowrap}
@@ -144,4 +145,27 @@ $('.mbtn').forEach(b=>b.addEventListener('click',()=>{
   $('.mbtn').forEach(x=>x.classList.toggle('on',F.mkt&&x.dataset.mkt===F.mkt));apply();
 }));
 document.getElementById('bigonly').addEventListener('change',e=>{F.big=e.target.checked;apply();});
-</script></body></html>
+</script><style id="mfix2">
+@media(max-width:640px){
+ table.sx:not(.sx-end){
+  -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%);
+  mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%)}
+ .news .src{overflow-wrap:anywhere}
+}
+</style>
+<script>
+(function(){
+ var mq=window.matchMedia('(max-width:640px)');
+ function upd(t){if(!mq.matches)return;
+  var ov=t.scrollWidth>t.clientWidth+2;
+  t.classList.toggle('sx',ov);
+  t.classList.toggle('sx-end',ov&&t.scrollLeft+t.clientWidth>=t.scrollWidth-2);}
+ function scan(){document.querySelectorAll('table').forEach(upd);}
+ document.addEventListener('scroll',function(e){var t=e.target&&e.target.closest&&e.target.closest('table');if(t)upd(t);},true);
+ document.addEventListener('toggle',function(){setTimeout(scan,60);},true);
+ window.addEventListener('resize',scan);
+ if(mq.addEventListener)mq.addEventListener('change',scan);else mq.addListener(scan);
+ scan();setTimeout(scan,600);
+})();
+</script>
+</body></html>

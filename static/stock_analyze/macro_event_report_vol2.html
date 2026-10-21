@@ -151,4 +151,27 @@ USO/GLD/UUP 分红极少，偏差可忽略。本卷所有股指口径统一改�
 
 <footer>QuantTradingAgentApp · research/macro_event_study · 第二卷生成于 2026-10-18 ·
 历史统计研究，不构成投资建议。</footer>
-</div></body></html>
+</div><style id="mfix2">
+@media(max-width:640px){
+ table.sx:not(.sx-end){
+  -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%);
+  mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%)}
+ .news .src{overflow-wrap:anywhere}
+}
+</style>
+<script>
+(function(){
+ var mq=window.matchMedia('(max-width:640px)');
+ function upd(t){if(!mq.matches)return;
+  var ov=t.scrollWidth>t.clientWidth+2;
+  t.classList.toggle('sx',ov);
+  t.classList.toggle('sx-end',ov&&t.scrollLeft+t.clientWidth>=t.scrollWidth-2);}
+ function scan(){document.querySelectorAll('table').forEach(upd);}
+ document.addEventListener('scroll',function(e){var t=e.target&&e.target.closest&&e.target.closest('table');if(t)upd(t);},true);
+ document.addEventListener('toggle',function(){setTimeout(scan,60);},true);
+ window.addEventListener('resize',scan);
+ if(mq.addEventListener)mq.addEventListener('change',scan);else mq.addListener(scan);
+ scan();setTimeout(scan,600);
+})();
+</script>
+</body></html>

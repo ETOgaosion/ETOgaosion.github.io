@@ -92,4 +92,27 @@ footer a{color:var(--blue);text-decoration:none;margin-right:14px;white-space:no
 <tr><td class="ev">2024-09 首次降息 50bp</td><td><span class="down">当天 −0.3% / 3月 +7.7%</span></td><td>短空长多</td></tr>
 <tr><td class="ev">2020-03 紧急降息到零</td><td><span class="down">当天 −12.0% / 3月 +33.7%</span></td><td>危机中的降息是警报</td></tr></tbody></table><div class="note">一句话：<b>“实际动作 − 市场预期”才是当天波动的来源；中期方向取决于处在货币周期的哪一段。</b>机械地加息做空、降息做多，长期是亏的。</div>
 <footer><a href="macro_event_report.html">人话版事件清单（80 个事件明细）</a><a href="macro_event_report_vol1.html">第一卷：FOMC 与战争</a><a href="macro_event_report_vol2.html">第二卷：季节、选举、财政与危机</a><a href="all_news_impact.html">全量新闻影响图</a><a href="index.html">报告首页</a></footer>
+<style id="mfix2">
+@media(max-width:640px){
+ table.sx:not(.sx-end){
+  -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%);
+  mask-image:linear-gradient(to right,#000 calc(100% - 30px),rgba(0,0,0,.25) 96%,transparent 100%)}
+ .news .src{overflow-wrap:anywhere}
+}
+</style>
+<script>
+(function(){
+ var mq=window.matchMedia('(max-width:640px)');
+ function upd(t){if(!mq.matches)return;
+  var ov=t.scrollWidth>t.clientWidth+2;
+  t.classList.toggle('sx',ov);
+  t.classList.toggle('sx-end',ov&&t.scrollLeft+t.clientWidth>=t.scrollWidth-2);}
+ function scan(){document.querySelectorAll('table').forEach(upd);}
+ document.addEventListener('scroll',function(e){var t=e.target&&e.target.closest&&e.target.closest('table');if(t)upd(t);},true);
+ document.addEventListener('toggle',function(){setTimeout(scan,60);},true);
+ window.addEventListener('resize',scan);
+ if(mq.addEventListener)mq.addEventListener('change',scan);else mq.addListener(scan);
+ scan();setTimeout(scan,600);
+})();
+</script>
 </body></html>
