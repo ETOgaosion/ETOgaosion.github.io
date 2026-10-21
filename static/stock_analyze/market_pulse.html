@@ -54,6 +54,24 @@ label.chk{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:
 .legend{font-size:12px;color:var(--muted);margin:8px 0 2px}
 .note{font-size:12px;color:var(--muted);margin-top:24px;line-height:1.8}
 .mkt{font-size:10.5px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+
+@media(max-width:640px){
+ body{padding:20px 14px 60px}
+ h1{font-size:21px}
+ .bar div{min-width:0;flex:1 1 45%;padding:8px 12px}
+ .sec{font-size:15px;margin:26px 0 8px}
+ table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+ .controls input{width:100%;flex-basis:100%}
+ .dayh{gap:8px;flex-wrap:wrap}
+ .dayh .dt{min-width:0}
+ .news{grid-template-columns:42px 1fr auto;padding-left:14px;gap:2px 8px}
+ .news .ttl{min-width:0}
+ .news .dtag{display:none}
+ .news>span:nth-child(2){grid-column:1/-1;grid-row:2}
+ .news>span:last-child{grid-column:3;grid-row:1;white-space:nowrap}
+ .more{margin-left:14px}
+}
+/*mfix*/
 </style></head><body>
 <h1>大盘新闻影响档案</h1>
 <div class=sub>每条新闻对齐其反应日的 <b>真实指数涨跌</b>（收盘到收盘，盘后发布滚到下一交易日）·

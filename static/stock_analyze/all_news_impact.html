@@ -1,4 +1,5 @@
 <!doctype html><html lang='zh'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'>
 <title>全量新闻股价影响 2009–2026</title><style>
 
  body{font-family:-apple-system,'PingFang SC','Microsoft YaHei',Arial,sans-serif;
@@ -25,6 +26,23 @@
  .twocol{display:flex;gap:16px;flex-wrap:wrap} .twocol>div{flex:1;min-width:460px}
  .topmovers td.l{min-width:220px} .topmovers td.zh{min-width:200px}
  a.jump{color:#2350a8;text-decoration:none;margin-right:10px;font-size:12.5px;white-space:nowrap}
+
+/*mfix*/
+
+ @media(max-width:640px){
+  body{padding:14px 10px}
+  h1{font-size:19px} h2{font-size:17px;margin:24px 0 8px}
+  .meta{font-size:12px}
+  table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  th{position:static}
+  td.l,td.zh{min-width:0}
+  .topmovers td.l{min-width:0}.topmovers td.zh{min-width:0}
+  .scroll{max-height:none;overflow:visible;border:none}
+  .twocol{flex-direction:column;gap:0}.twocol>div{min-width:0}
+  .ctl input[type=text]{width:100%;box-sizing:border-box;margin-bottom:6px}
+  .ctl select{max-width:100%}
+  a.jump{display:inline-block;margin:0 12px 8px 0}
+ }
 
 </style></head><body>
 <h1>全量新闻 × 股价影响：分公司明细（2009–2026）</h1>
