@@ -8,7 +8,8 @@
 <style>
   :root{
     --bg:#faf7f2; --card:#ffffff; --line:#ece7de; --ink:#1c1c1e;
-    --sub:#8a8578; --c1:#c0392b; --c2:#b5560f; --c3:#2350a8; --c4:#3a6b4a;
+    --sub:#8a8578; --c1:#c0392b; --c2:#b5560f; --c3:#2350a8; --c4:#157a6e;
+    --c5:#6b57a8;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{height:100%}
@@ -23,7 +24,8 @@
   h1{font-size:30px;font-weight:750;letter-spacing:.5px}
   header p{margin-top:10px;color:var(--sub);font-size:14px}
   header .date{display:inline-block;margin-top:14px;font-size:12px;color:var(--sub)}
-  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media (max-width:1080px){.cards{grid-template-columns:repeat(2,1fr)}}
   a.card{
     position:relative;display:flex;flex-direction:column;
     background:var(--card);border:1px solid var(--line);border-radius:16px;
@@ -36,6 +38,7 @@
   a.card:nth-child(2){animation-delay:.15s}
   a.card:nth-child(3){animation-delay:.24s}
   a.card:nth-child(4){animation-delay:.33s}
+  a.card:nth-child(5){animation-delay:.42s}
   a.card:hover{transform:translateY(-5px) scale(1.012);border-color:var(--ink);
     box-shadow:0 18px 40px -20px rgba(28,28,30,.18)}
   a.card:active{transform:translateY(-1px) scale(1.004)}
@@ -44,6 +47,7 @@
   a.card:nth-child(2) .idx{color:var(--c2)}
   a.card:nth-child(3) .idx{color:var(--c3)}
   a.card:nth-child(4) .idx{color:var(--c4)}
+  a.card:nth-child(5) .idx{color:var(--c5)}
   h2{font-size:20px;font-weight:700;margin:14px 0 10px;line-height:1.35}
   .desc{font-size:13.5px;color:#5d584e;line-height:1.7;flex:1}
   .meta{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 20px}
@@ -58,6 +62,7 @@
   a.card:nth-child(2) .go{color:var(--c2)}
   a.card:nth-child(3) .go{color:var(--c3)}
   a.card:nth-child(4) .go{color:var(--c4)}
+  a.card:nth-child(5) .go{color:var(--c5)}
   footer{margin-top:30px;text-align:center;color:#b3ada0;font-size:12px;
     animation:rise .6s .34s cubic-bezier(.22,1,.36,1) both}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -83,8 +88,8 @@
 <div class="wrap">
   <header>
     <h1>量化交易研究报告</h1>
-    <p>宏观大事件 · 美股大盘脉搏 · 公司新闻事件，三层视角看市场</p>
-    <span class="date">最近更新 · 2026-10-20</span>
+    <p>宏观大事件 · 大盘脉搏 · 大板块轮动 · 公司新闻事件 · 交易经验，五层视角看市场</p>
+    <span class="date">最近更新 · 2026-10-21</span>
   </header>
 
   <div class="cards">
@@ -104,8 +109,16 @@
       <div class="go"><b>进入报告</b><span class="arrow">→</span></div>
     </a>
 
+    <a class="card" href="sector_pulse.html">
+      <div class="idx">REPORT 03 · 大板块</div>
+      <h2>九大板块脉搏：趋势 × 新闻驱动</h2>
+      <div class="desc">存储 / 光通信 / 石油 / 比特币 / 互联网 / 半导体 / 黄金 / 新能源车 / 电力·AI基建，每个板块一个 Tab：整体趋势判定、成分股 6 个月归一走势与轮动表，近 3 周关键新闻按反应日对齐基准标的真实涨跌。</div>
+      <div class="meta"><span>每日更新</span><span>9 大板块</span><span>57 只标的</span></div>
+      <div class="go"><b>进入报告</b><span class="arrow">→</span></div>
+    </a>
+
     <a class="card" href="all_news_impact.html">
-      <div class="idx">REPORT 03 · 公司事件</div>
+      <div class="idx">REPORT 04 · 公司事件</div>
       <h2>全量新闻 × 个股影响</h2>
       <div class="desc">2009–2026 年 10 万余条公司新闻逐条对齐反应交易日，给出隔夜跳空、当日 / 3 日超额收益与中文摘要、主题、产品筛选。</div>
       <div class="meta"><span>2009–2026</span><span>104,138 条新闻</span><span>35 家公司</span></div>
@@ -113,7 +126,7 @@
     </a>
 
     <a class="card" href="lessons.html">
-      <div class="idx">REPORT 04 · 经验结论</div>
+      <div class="idx">REPORT 05 · 经验结论</div>
       <h2>四条用真金白银换来的交易经验</h2>
       <div class="desc">战争只在掐断原油供应时才推动油价；救市分流动性危机与资不抵债两种结局；总统党派不如任期年份有用；加息降息没有绝对方向——意外与周期位置才是关键。每条都附逐事件真实数字。</div>
       <div class="meta"><span>4 条规则</span><span>1986–2026</span><span>标普500 · WTI</span></div>
@@ -121,7 +134,7 @@
     </a>
   </div>
 
-  <footer>QuantTradingAgentApp · Macro Events &amp; Market Pulse &amp; Company Events</footer>
+  <footer>QuantTradingAgentApp · Macro Events · Market Pulse · Sector Pulse · Company Events · Lessons</footer>
 </div>
 </body>
 </html>
