@@ -1,0 +1,2703 @@
+{
+  "captured_at": "2026-10-29T09:52:25.152789+00:00",
+  "inventory_total": {
+    "n": 902993,
+    "first": "2002-07-25T00:00:00Z",
+    "last": "2026-11-19T00:00:00Z"
+  },
+  "keyword_candidates": 16104,
+  "audit": {
+    "missing_date": 11,
+    "role_unresolved": 11103,
+    "non_ma_or_security_purchase": 3978,
+    "role_matched": 824,
+    "social_unverified": 188
+  },
+  "price_read_started": "2026-10-29T10:10:44.650081+00:00",
+  "price_read_finished": "2026-10-29T10:10:49.822582+00:00",
+  "calendar_version": "4.13.2",
+  "directory_sources": [
+    {
+      "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
+      "sha256": "4e47a99d953e1f381a70a599841a9912aa037465d24e9c183a5f70c75a42cef4"
+    },
+    {
+      "url": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt",
+      "sha256": "f63c29e3ba8a4938bd348a07b3436d0057dbd1a945846c6777495d536a837f88"
+    }
+  ],
+  "analysis_code_sha256": "d4570246d7339a2938b88c040dd6117740a78f77b9741129a108fc2659fcaeeb",
+  "prepared_input_sha256": "a844023e5db490c9fa5589476d601f8e79eca0c3317908afbc7351c5c1181e80",
+  "summary": {
+    "verified": 8,
+    "archive": 11927,
+    "role_matched": 824,
+    "any_day0": 817,
+    "paired_headlines": 27,
+    "paired_event_days": 21,
+    "buyer_day0": 723,
+    "target_day0": 96,
+    "seller_day0": 32,
+    "market_measurable": {
+      "us": 816,
+      "hk": 1
+    },
+    "years": {
+      "2009": 2,
+      "2010": 12,
+      "2011": 19,
+      "2012": 36,
+      "2013": 33,
+      "2014": 29,
+      "2015": 104,
+      "2016": 137,
+      "2017": 80,
+      "2018": 140,
+      "2019": 105,
+      "2020": 35,
+      "2023": 144,
+      "2024": 1430,
+      "2025": 2561,
+      "2026": 7060
+    }
+  },
+  "input_sha256": "e29a47dfd05a725c13b7614b8f5e282c201ba446c8f92dedaa8c4c889f534a3a",
+  "source": "qta.store.stockfiles.connect → formal data/stocks year/security shards",
+  "price_manifest": {
+    "DOV": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "059544ff65fdcfd736be6052cd9fe4711c549e1fb3c339a638f0d72d0bdeaf31"
+    },
+    "SPY": {
+      "rows": 6245,
+      "first": "2002-01-02",
+      "last": "2026-10-27",
+      "sha256": "87c5326f8997c0541d54edc94fd8a15c9cfbc97b54351492048ca3c94756f9a1"
+    },
+    "NTAP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ebadf424e8074fab26402831e9378344192935688db64c2d4a9c287bc1a6b555"
+    },
+    "WDC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d4c840c91ca28a8a37c1d2ede594316ba8de3a45a13f8eb2d522a02fce3032d3"
+    },
+    "QCOM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2cd651f94be0d09031423946f00c65b0539a1af0c4c7905209b1324eaa3a4db0"
+    },
+    "MU": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d89d880517db037f03dc7775e90451d7dbf0c43e8c5ce4d2056fa3eb5973c7f1"
+    },
+    "NXPI": {
+      "rows": 4082,
+      "first": "2010-08-06",
+      "last": "2026-10-28",
+      "sha256": "55157ba3fb2ec836436bd8ee83ca69e149bb307e042500a21f9def8cd99a6664"
+    },
+    "NVDA": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "51cf3e2fcc4b1da016ca226f79dc163e8bf2298c6a9a93df4fd1a768f1360a59"
+    },
+    "STX": {
+      "rows": 6008,
+      "first": "2002-12-11",
+      "last": "2026-10-28",
+      "sha256": "32816218abd518877b7296a0ab841bab4b481f1efc6cc321d743afc0b06f02be"
+    },
+    "ASML": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "509bfca41ff70c139ec42024da4fe4aa8c749fe50ebc1241ea3af5de53e890be"
+    },
+    "SNDK": {
+      "rows": 3590,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "0ad17e63b1544fc66663ca27708908c79d3bf7180fa1fa1c8221144ffbb5f8e8"
+    },
+    "NOW": {
+      "rows": 3603,
+      "first": "2012-06-29",
+      "last": "2026-10-28",
+      "sha256": "9395323ee8c9934825a3e3e7630b6026439dd45702b3f1c57a2e3b2eb2f00292"
+    },
+    "TSM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7222b6bc767b0028fc85b80c04e2eb55e5e0dd692cfca7285fbc5e1d31623570"
+    },
+    "SIMO": {
+      "rows": 5366,
+      "first": "2005-06-30",
+      "last": "2026-10-28",
+      "sha256": "d176227e4d70457f6482cf946c0374f910f3eecbab2280aa066e664cc1a2713c"
+    },
+    "AVGO": {
+      "rows": 4334,
+      "first": "2009-08-06",
+      "last": "2026-10-28",
+      "sha256": "a815f7ca0c79f69d130400463ddfa697839106e9fb49eb43c42a247e8d5a0c3c"
+    },
+    "GLW": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2e76208caaaa1510bfec27cbc42e4d56d6fdd8107a00b1ff98d63bc27179d630"
+    },
+    "MRVL": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2e88a98f4e677156b8b02ede10945c3c6422df6a5079e9fe2c07ddabf7135830"
+    },
+    "LRCX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "110f3ae871a6ec2423e9119beeab21fffc536066b080053a6467949847b0c7a5"
+    },
+    "CRM": {
+      "rows": 5624,
+      "first": "2004-06-23",
+      "last": "2026-10-28",
+      "sha256": "99a4105e25edaa1ba8ef3347d3abe5a520a9fb7241564b46d9e6c0be34884343"
+    },
+    "TSLA": {
+      "rows": 4109,
+      "first": "2010-06-29",
+      "last": "2026-10-28",
+      "sha256": "6ae98066e40341da1feedf08eba52c2ed77e21c732a6ec7cec38aedd42ae9d27"
+    },
+    "TWTR": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "JNJ": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d67d985c0133220e83ee92ddfa5d4eee1d1e5df2ca30b48fb5b665521e69c519"
+    },
+    "EXTR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "88cf41b3450dd84771aa8f4bb934702f54cfb28db0693b21278411fcda4d02fd"
+    },
+    "TRMB": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "bc2ff4265a6aee6987ade221fdf4f111c44958008da35a5ac7033589e3aa692e"
+    },
+    "VMW": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "ANET": {
+      "rows": 3246,
+      "first": "2007-04-30",
+      "last": "2026-10-28",
+      "sha256": "1f60476cb87904788f590ad422375753840b6108a6e589c3dcb17d726dc55a2f"
+    },
+    "MDB": {
+      "rows": 2268,
+      "first": "2017-10-19",
+      "last": "2026-10-28",
+      "sha256": "bc41d0c87969b574f5176b3eac8f14807a80a4cf9df890894914e61420aabd28"
+    },
+    "AVT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2b67eb50825d3a1831217b4aa741a5c510cd5c059de5a2469a3fcde4c1834e88"
+    },
+    "PANW": {
+      "rows": 3589,
+      "first": "2012-07-20",
+      "last": "2026-10-28",
+      "sha256": "4f9febb0e4fba2320e8451f64f1fa4d0eb979a8bb2bbbe7eed2c4687a1836311"
+    },
+    "TEAM": {
+      "rows": 2809,
+      "first": "2004-10-27",
+      "last": "2026-10-28",
+      "sha256": "9869fe9bbee2038ce761976a0cfff4c431c9010e80769f791f08480e41ffc3ae"
+    },
+    "INTC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "392b5b4a1c72053eaef91ece1dba7623e5d29ceb12b5f3f7d0b999e3422aabe2"
+    },
+    "AMAT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "59b9c405f280dd0374de915543e24c0577dd19e8aabc8a5e5c8846bedf0abbfb"
+    },
+    "GOOGL": {
+      "rows": 5584,
+      "first": "2004-08-19",
+      "last": "2026-10-28",
+      "sha256": "fdf2c5cd9c8e75c397bc40cb8a5bd387b010673d71a026270b4d0a7e71a821b8"
+    },
+    "SSNC": {
+      "rows": 4678,
+      "first": "2003-09-11",
+      "last": "2026-10-28",
+      "sha256": "c4fbbd967097658419ee9128051a7ee39f0562b4e561453f04e9b6890327b2b4"
+    },
+    "ECHO": {
+      "rows": 4736,
+      "first": "2008-01-02",
+      "last": "2026-10-28",
+      "sha256": "cc2ba58bc5ea471a4a665822b3e18e25fc53870b62c1b1caf30b812e615d956a"
+    },
+    "CDNS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a3b1769a97e2d39a7b3aa862f1ef6ffbfe69980f11bfbf42f27f90922a8e27ab"
+    },
+    "ACN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "e5d611bb5bbdf0d482e7f8dec07beb3cf39a0a0312ec15d2e35f6904aa320d93"
+    },
+    "QMCO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2a2880d79c8fa753f1a7d42b1be54234a2c7844a238bfefe2a8d6ea46968379f"
+    },
+    "AAPL": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "174fc985f7dd6de6eb279cc36ebd2c50f48ddd7ff948d8963949ee4d3104930b"
+    },
+    "SNAP": {
+      "rows": 2429,
+      "first": "2017-03-02",
+      "last": "2026-10-28",
+      "sha256": "a5645e72902dd307fd0d58923156590208cc336f2355eea6600d34bc694eb394"
+    },
+    "SANM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ff24988d4c990cd0c94f85ca0f16d9c2a4c617de649404a5db8adb4cbaef1a4a"
+    },
+    "CORZ": {
+      "rows": 932,
+      "first": "2022-01-20",
+      "last": "2026-10-28",
+      "sha256": "561d7d47c901f6033acdd493abbf517b69a59ad51376960258b31f9b3f9e158a"
+    },
+    "CRWV": {
+      "rows": 399,
+      "first": "2025-03-28",
+      "last": "2026-10-28",
+      "sha256": "f539280fcfe73fcf86ded2d8e4f84dc41893c7698088ab9529bdc196a4a49e00"
+    },
+    "META": {
+      "rows": 3632,
+      "first": "2012-05-18",
+      "last": "2026-10-28",
+      "sha256": "4500774fde6494e1fe2a105aebde04c17152c1d49aee1f975a90be65e3c3fc84"
+    },
+    "VTRS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b1f99300c42fc932bbf0dfe66bf27fb72bb2f16f86aa78e9a5e12fac402c52cd"
+    },
+    "RVMD": {
+      "rows": 1686,
+      "first": "2020-02-13",
+      "last": "2026-10-28",
+      "sha256": "c5173c035a30a5403d44c4cf172b0a3740a598aabd79df8b60b2857db6f976e8"
+    },
+    "NAKA": {
+      "rows": 605,
+      "first": "2024-05-31",
+      "last": "2026-10-28",
+      "sha256": "a248132a651fa5589d2c3de5afb1f5befb586c06a4b20dfcd603740f415682cb"
+    },
+    "LBGJ": {
+      "rows": 505,
+      "first": "2024-10-23",
+      "last": "2026-10-28",
+      "sha256": "70660d9159ecb55e9c7733907aea8b86cc55614f0a62d7e498c28dbb26439c3b"
+    },
+    "MNDR": {
+      "rows": 641,
+      "first": "2024-04-10",
+      "last": "2026-10-28",
+      "sha256": "8e489573e74bd3690fd7df3a1e6627831d0478f2011f8b8212313436b433f32b"
+    },
+    "PMAX": {
+      "rows": 539,
+      "first": "2024-09-05",
+      "last": "2026-10-28",
+      "sha256": "1b91ea2418233d25dc9e3dfa89b05dd96dd10ed59a86b6ebd02a17a3bf30a0f4"
+    },
+    "VIVK": {
+      "rows": 4314,
+      "first": "2009-09-03",
+      "last": "2026-10-28",
+      "sha256": "fdbc3ae845355384631d670572853fe4b55088517fe22d8a735009ef9e36605f"
+    },
+    "VMET": {
+      "rows": 278,
+      "first": "2025-09-22",
+      "last": "2026-10-28",
+      "sha256": "a1b1070cfe438d75f26f3795afac4f8446de58e489dbbe5ce3b1a5655a0af8a4"
+    },
+    "KUST": {
+      "rows": 4895,
+      "first": "2007-05-16",
+      "last": "2026-10-28",
+      "sha256": "42134627dbe9c07e352bfcf610caa337ca56b00717146aeab794f249a97390e9"
+    },
+    "EBAY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3e78d833d39d145154f6eae50aee752219d8022415e63364db8ec7965fe46c4d"
+    },
+    "IE": {
+      "rows": 1089,
+      "first": "2022-06-28",
+      "last": "2026-10-28",
+      "sha256": "852ca210551b63fbb3c3477196dea9cd5ae19524f2d55423461f662712608a2e"
+    },
+    "RAMP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "dbdbc0ffa18595e464d3b2be0e028d15264e976264bbc0ab3499f8dd44ecc70d"
+    },
+    "EMBC": {
+      "rows": 1157,
+      "first": "2022-03-21",
+      "last": "2026-10-28",
+      "sha256": "9d446e44649166f67bbfcf984b90ee21fe34ceaf0537417ae71ee1e6ca2e91c3"
+    },
+    "CCLD": {
+      "rows": 3086,
+      "first": "2014-07-23",
+      "last": "2026-10-28",
+      "sha256": "71245343e1a003ed2749f1e627cbc95bb10fe2e891e09e2c514c52c5889d84e1"
+    },
+    "SNOW": {
+      "rows": 2186,
+      "first": "2014-02-03",
+      "last": "2026-10-28",
+      "sha256": "14b1f3f59ef8949e61bbf0dede0d4fdf12a833b668d7842ae18ec2a8655cfc55"
+    },
+    "MOBX": {
+      "rows": 1308,
+      "first": "2021-08-13",
+      "last": "2026-10-28",
+      "sha256": "eb0394536e9e8d79562cdff9575710d0f3458e74b9fa8eff46614b23de5ba7b0"
+    },
+    "GILD": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2ff2848eaca8be0e69d4efa07cb522071a82b7f147f40cfad34cc809c507c434"
+    },
+    "TAC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "65d065742e341f54f50f1d1c554e6688935d8574a6f5f63a6ab15a8f9f0cbd0e"
+    },
+    "IPX": {
+      "rows": 1194,
+      "first": "2003-12-11",
+      "last": "2026-10-28",
+      "sha256": "8e947da3648802c75c7a29d31a45f46edd511fa22f4bfa60432b06601bca22e7"
+    },
+    "ALTI": {
+      "rows": 3080,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "bbcf1d37aa69084fb06ed91e490af6436b6dcfe132bab218f85c961c077a027e"
+    },
+    "ECX": {
+      "rows": 1403,
+      "first": "2021-03-30",
+      "last": "2026-10-28",
+      "sha256": "83ce53afb4f1c361239217dea12bfb1810217ec73612a0352076fb7d987dcb94"
+    },
+    "DHR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "dcdf0b0d6f626a3086881da9aa8121b73c9f3439e5e3336a5e8832987b7b12f8"
+    },
+    "ZYME": {
+      "rows": 2389,
+      "first": "2017-04-28",
+      "last": "2026-10-28",
+      "sha256": "9ab33b78cb955f8e9bd2ecfd26fe4d0519b9f08ba38786eac785ad0e72dc3224"
+    },
+    "KFY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "6c0782c92256566b9be5fca84ff05b32612f6117093d56f2317be089cd761855"
+    },
+    "RPAY": {
+      "rows": 2083,
+      "first": "2018-07-17",
+      "last": "2026-10-28",
+      "sha256": "75edc26111678362eec2f82d63d1866767e5ce14e76cfa29afe5ce88ebfb6c4b"
+    },
+    "SD": {
+      "rows": 4563,
+      "first": "2007-11-06",
+      "last": "2026-10-28",
+      "sha256": "575bf16dd2fa34c662d5b32fbdb0be1ff59336739b4834c08e9c095cba68b6f8"
+    },
+    "MTDR": {
+      "rows": 3706,
+      "first": "2012-02-02",
+      "last": "2026-10-28",
+      "sha256": "707e5a64059f2da5bff223127ae65dbd5c04c887e0d3e69fbb8431c093e308bb"
+    },
+    "FLY": {
+      "rows": 2789,
+      "first": "2007-09-27",
+      "last": "2026-10-28",
+      "sha256": "79d857f3d171169a8ad712a33a672f1561a5c38b4e79f01063a6d8699d3e810e"
+    },
+    "MSCI": {
+      "rows": 4767,
+      "first": "2007-11-15",
+      "last": "2026-10-28",
+      "sha256": "5eb94a9bc9e3385db063c826812743230fcccb10d7b6312fbc8a4b6b953119dd"
+    },
+    "BX": {
+      "rows": 4869,
+      "first": "2007-06-22",
+      "last": "2026-10-28",
+      "sha256": "0023260215b8247fe413f70fb9f0108ec0914ba3c1615c9816b0ffb186d99539"
+    },
+    "PACS": {
+      "rows": 640,
+      "first": "2024-04-11",
+      "last": "2026-10-28",
+      "sha256": "6052f2171d0c7009c1ebf5368ff73495a2246d6f8984a789f4095739d828075c"
+    },
+    "IRDM": {
+      "rows": 4682,
+      "first": "2008-03-20",
+      "last": "2026-10-28",
+      "sha256": "0f1b4d4431f7d80746d926b7a0b8bc0921836c6bd998e803462ff0bbb8a65de7"
+    },
+    "CNNE": {
+      "rows": 2246,
+      "first": "2017-11-20",
+      "last": "2026-10-28",
+      "sha256": "12984dcfcb7155f329a14c0776af5e1300fdc06a29de88517d0e0a5dae37353f"
+    },
+    "MPAA": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "560e6bc79717bde5ac63080e757f427943a8e41b05d8a8e060f8fa9ae9a7434f"
+    },
+    "AMCR": {
+      "rows": 3678,
+      "first": "2004-03-23",
+      "last": "2026-10-28",
+      "sha256": "aa55811200b8dd33cc8cc15a45ce6efcd1be8cf239fa2959c64fe34bca2ca1a2"
+    },
+    "ROKU": {
+      "rows": 2283,
+      "first": "2017-09-28",
+      "last": "2026-10-28",
+      "sha256": "e7d475e2ba57598e339af4f08f2660a2ea4208ca8c8dff6b5bf3a1cafe9cadd1"
+    },
+    "HLI": {
+      "rows": 2819,
+      "first": "2015-08-13",
+      "last": "2026-10-28",
+      "sha256": "76b45307ece737bb766dac0ad7c2c4496b9d3c5f5d9c5844fc07264f5d01e69e"
+    },
+    "NATL": {
+      "rows": 1184,
+      "first": "2005-01-31",
+      "last": "2026-10-28",
+      "sha256": "b5c14926a1439a702fa877963560d6135022a98c91ca5ad775c32f2208c499d5"
+    },
+    "AA": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c516145c8a3dfa02d72a59737e7782391647a7e154b54ba49493aa34df64a2ae"
+    },
+    "DDOG": {
+      "rows": 1787,
+      "first": "2019-09-19",
+      "last": "2026-10-28",
+      "sha256": "caf5170a9d04e1dc9d335f97e1a6c80ccdd558231a8c5ab00d2c1160f077b424"
+    },
+    "BULL": {
+      "rows": 1056,
+      "first": "2022-08-15",
+      "last": "2026-10-28",
+      "sha256": "d8bb06ffef59aa6eb74becc053b59afbec5e5159a0e59e1680f08913cb862025"
+    },
+    "CDNA": {
+      "rows": 3090,
+      "first": "2014-07-17",
+      "last": "2026-10-28",
+      "sha256": "09518f7630aa5108d317a038baa4e5a66390c7b5f6108f25d6b86a3f747e4323"
+    },
+    "CSGP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "88f7a75f338e4e3c0f42facb2bc8e863ed0c779a17fbdad790ce9b7a6149d7b6"
+    },
+    "BTQ": {
+      "rows": 887,
+      "first": "2023-04-18",
+      "last": "2026-10-28",
+      "sha256": "5f4ebc3b94bb2227bea5e60d09c443d66a4b96d9b9337bd05830680a03f25cf1"
+    },
+    "SITM": {
+      "rows": 1743,
+      "first": "2019-11-20",
+      "last": "2026-10-28",
+      "sha256": "f9082f75dfa9662778076d614a8c6fa4ceb2810ef5cabb5563c1b4dca8c7ddb6"
+    },
+    "BDC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "01780fc1aaac3697c6468e5bf752fe1c011e2b0e03e10bd587e5337452faa8da"
+    },
+    "MLM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9f08e5313905f6c09afd166ffc920f6ac9624fde9e058bcd214cfdb8a3901d37"
+    },
+    "UTHR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a8e95856fac9d4808ca13d4d37eda5e33a39560043f1e8f7eb2b64ae7c46a014"
+    },
+    "CLRO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "547553bcb7b847627b571a73cc5e9896d2236835e3ace9469b8a04e68cebff61"
+    },
+    "RF": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d315fa03be6424d1f523ab11263f6c0bc40cecd9b02dc9d9299a97b96ad3afcf"
+    },
+    "APG": {
+      "rows": 1771,
+      "first": "2019-10-11",
+      "last": "2026-10-28",
+      "sha256": "11e166e8e3ae2901cd49e195e95212f6cc5d9620ef758450fc0013c5f8ee32e3"
+    },
+    "USPH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c92511b63a3acc44850b0e9e7ca14631821890785bd9056d01ab6360b3ddca05"
+    },
+    "SEER": {
+      "rows": 1481,
+      "first": "2020-12-04",
+      "last": "2026-10-28",
+      "sha256": "55df94249e1ce8bea073fa55759daa29b5dd59d0ea51f729c54135937b52f74c"
+    },
+    "HGTY": {
+      "rows": 1360,
+      "first": "2021-06-01",
+      "last": "2026-10-28",
+      "sha256": "131e22f0da49c85631e195f8daea907b46087f642afd4bdc34b8e688fc8d7f54"
+    },
+    "ASST": {
+      "rows": 937,
+      "first": "2023-02-03",
+      "last": "2026-10-28",
+      "sha256": "88df02b991168a875a0f76c4dc643a1d6a5e03356cdeeeabd225637492de70b5"
+    },
+    "SEI": {
+      "rows": 2379,
+      "first": "2017-05-12",
+      "last": "2026-10-28",
+      "sha256": "2fe4d816273bd671a5b75330d9859d1a9ca4551d1035fa32b125a798036eb4e6"
+    },
+    "SOLS": {
+      "rows": 258,
+      "first": "2025-10-20",
+      "last": "2026-10-28",
+      "sha256": "62a76a956470c6701ea3f4d1224a943885d63a9400ff2424c8422b4af6a34490"
+    },
+    "ESI": {
+      "rows": 5795,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "f38591b9ff1b72a28ea1e9329ae8148b474b4b724d0c4515aa57a33a6c9f15ff"
+    },
+    "INCY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7ebc9dd7f714944ce2fadefafa82a85096078eb7aefd099ba266f4588dee3bb0"
+    },
+    "CURB": {
+      "rows": 524,
+      "first": "2024-09-26",
+      "last": "2026-10-28",
+      "sha256": "96c58f01f585c1c34af925facf4e5837e278e00510bd71ea9cc633e134f9b76e"
+    },
+    "VERX": {
+      "rows": 1571,
+      "first": "2020-07-29",
+      "last": "2026-10-28",
+      "sha256": "02c8b122f3c9a404a31e572d856764b17127a37c63acd086b71b8b558be15610"
+    },
+    "EFX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "5a7ca3248f299a02a1dc881afa56341afcf34cefa014e64d011d0b2e6157e86b"
+    },
+    "CURI": {
+      "rows": 1713,
+      "first": "2020-01-06",
+      "last": "2026-10-28",
+      "sha256": "3d8782866cf6ce0eda0e17e412adf2ef108f1f05e24ab2763e7d32fb1226fee7"
+    },
+    "ADI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "202d0d962edeee8797514e13f8310052a7c218516c5302c25917c7fbfb7fd522"
+    },
+    "BFST": {
+      "rows": 2152,
+      "first": "2018-04-09",
+      "last": "2026-10-28",
+      "sha256": "551cb615b9e36f3b52ed8fc00164a67e881693258a4872fc9b1752ec1a398c1b"
+    },
+    "ENSG": {
+      "rows": 4771,
+      "first": "2007-11-09",
+      "last": "2026-10-28",
+      "sha256": "8e422980f1f503da22647a5cb467a5de3da7767d301b816c248cdd9e7c501df7"
+    },
+    "LTRX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "63ad81e06b14e369d0972823ccf33cabe081a44457d2e4b57caba8fba49ac6b0"
+    },
+    "EPAC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "4320a999d6e85ffa87aa288793cba0aa6cd1a6c66273ae6aa07046abad16ba2e"
+    },
+    "MTZ": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "364884bde795dff3e6e69dc156b5b2682d9847981e1fe0f1f8e0eb7c11f90549"
+    },
+    "NCRA": {
+      "rows": 2256,
+      "first": "2017-11-06",
+      "last": "2026-10-28",
+      "sha256": "d198fec2c1d9d1866dcba53dc4d95cb2e1c86cb775fe1879dde7a0018a21ab60"
+    },
+    "LTC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "41ee1caaf1553099fae41ff9beaab4b99b5ad1b5721ffcab22c4a09bb00da4ac"
+    },
+    "LYFT": {
+      "rows": 1907,
+      "first": "2019-03-29",
+      "last": "2026-10-28",
+      "sha256": "9df5a08ce4dba93b6aff833e6aa2cb4e3f6e71397f7e858c4eb0c7d240e1adaa"
+    },
+    "BYRN": {
+      "rows": 5064,
+      "first": "2006-09-12",
+      "last": "2026-10-28",
+      "sha256": "b847158ec7a5b49ccb10f3824ef07961713f89f4ae0bec47680ac1a1213d9a23"
+    },
+    "RYTM": {
+      "rows": 2278,
+      "first": "2017-10-05",
+      "last": "2026-10-28",
+      "sha256": "81dc36beff9f694e2b9fc0301d3f7775d9b8de09c659a30877b05d2e03773769"
+    },
+    "ADBE": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "593098f4872869a10ef10c698b16e4d1dd6953897bc8b06816045155a0e8f14c"
+    },
+    "MRX": {
+      "rows": 2940,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "88e82b02393e75f379f4a7d8ab0c411bda13b718c4458230edc49920206147dc"
+    },
+    "RDZN": {
+      "rows": 1202,
+      "first": "2022-01-13",
+      "last": "2026-10-28",
+      "sha256": "ebb1bab08f25075ea63639eaac053a970b31df139bd9447150af8dcf1b54c45d"
+    },
+    "PCTY": {
+      "rows": 3532,
+      "first": "2003-09-30",
+      "last": "2026-10-28",
+      "sha256": "c9c11e7e5548bd313e36b58c64848c18f471b3a092be8ab08bdfa6d467e1dc0a"
+    },
+    "GAIN": {
+      "rows": 5371,
+      "first": "2005-06-23",
+      "last": "2026-10-28",
+      "sha256": "3f7cdf9bb1d5e6f0b097d108c0424e24db1364193dd09310fd7d3a115393c27b"
+    },
+    "WRAP": {
+      "rows": 2121,
+      "first": "2018-05-22",
+      "last": "2026-10-28",
+      "sha256": "3ef67127029dc2e0bd421d6e6ae1d25b0017bed6c7a6eef66da464768ad1d128"
+    },
+    "OLOX": {
+      "rows": 2351,
+      "first": "2017-06-22",
+      "last": "2026-10-28",
+      "sha256": "b315b966310a9fcd045270839334f00bb2115bd6c5bbf4876849ee2a9aee18fe"
+    },
+    "OKLO": {
+      "rows": 1334,
+      "first": "2021-07-08",
+      "last": "2026-10-28",
+      "sha256": "59b8011b148c9c1d6374b9d1a4577c9ee06000f3a5fa07f0bfdfb96d2ba1ea77"
+    },
+    "SYM": {
+      "rows": 1520,
+      "first": "2004-07-08",
+      "last": "2026-10-28",
+      "sha256": "adbfd1c7018c89ec4244c024c029e1377f69462722d89e51bb21295be29fc89f"
+    },
+    "NAVN": {
+      "rows": 250,
+      "first": "2025-10-30",
+      "last": "2026-10-28",
+      "sha256": "00956bac850f1f2910245f9b831def5ee6c4192d7e49db08d2ddddf458c59016"
+    },
+    "SAIL": {
+      "rows": 1608,
+      "first": "2017-11-20",
+      "last": "2026-10-28",
+      "sha256": "a29c0879ee2e231a78e82c5154a4e9d712bfaa52d5d350d6232ce402314fb4b6"
+    },
+    "WFRD": {
+      "rows": 1724,
+      "first": "2019-12-18",
+      "last": "2026-10-28",
+      "sha256": "25d8fcdf142342b43b89c6389f55dd085c7f0c2bb865ea57127aeb17c4519e23"
+    },
+    "GTN": {
+      "rows": 6240,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "63f865dc76291b76c9977681c4352d7519217fb43b59b33b69d08d8ae5263943"
+    },
+    "FHB": {
+      "rows": 2573,
+      "first": "2016-08-04",
+      "last": "2026-10-28",
+      "sha256": "68107326d047f18818d92a0b25c989b18f8d557380328d1426ba7554a8c23ebe"
+    },
+    "TCBK": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "0f1ab49589f575924c18b302494672c273a3c4ec230521b66acd233298f071ed"
+    },
+    "FERG": {
+      "rows": 4462,
+      "first": "2003-07-03",
+      "last": "2026-10-28",
+      "sha256": "e97aa2b4a34363c419c818c92906a0b1d5e14f4eaf4a9d344575f7fdfba96cf8"
+    },
+    "IBN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c0215ec001de967de0c98ac54fee8acdb9eb2881b4bf1954de99f5e386e48acb"
+    },
+    "FBNC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "1e9b3fe61161040bf47798f4a8818e66dfe7d852178de8213066261837ac3fe0"
+    },
+    "WLFC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "12c013284bbdec3e1b84e311f210a8333e03bc70643f57a7074b7249ac3286f8"
+    },
+    "PYPL": {
+      "rows": 2847,
+      "first": "2015-07-06",
+      "last": "2026-10-28",
+      "sha256": "b73ef375719fd2690ae73d211ab507d5586d14c67579de0a935c4209d48adfd4"
+    },
+    "BRKR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "1fe753c61bbf2186dd77ebff62b10ccb8b571f0e17495e6372fd8fab1e1f0521"
+    },
+    "FRMM": {
+      "rows": 2348,
+      "first": "2017-06-27",
+      "last": "2026-10-28",
+      "sha256": "a6ec289497fb55038b2cb85010ff1607c0abeb51ce309a6c6614a52bdb885ece"
+    },
+    "ARRY": {
+      "rows": 5222,
+      "first": "2003-09-24",
+      "last": "2026-10-28",
+      "sha256": "2eddbe9c340547015b9d4e6f63ae442c6fc670bd05b459f60613f97a9c93da88"
+    },
+    "IPGP": {
+      "rows": 4999,
+      "first": "2006-12-13",
+      "last": "2026-10-28",
+      "sha256": "51900658a784aed235b1ace2f3e7ccdee2c6bf233223ea441a7750b624a66782"
+    },
+    "COP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3b39a3570e9d6f257442cd37ec7972b6eb38abbea470a6a0927c9163e9a06dd9"
+    },
+    "ZTS": {
+      "rows": 3456,
+      "first": "2013-02-01",
+      "last": "2026-10-28",
+      "sha256": "896f2ae79bc5ffdd81e37e75bbf5e1ae50dfeb22928839aceaffb268395038b1"
+    },
+    "BAM": {
+      "rows": 5254,
+      "first": "2005-10-05",
+      "last": "2026-10-28",
+      "sha256": "166190564d100bef339f00e9afbe146fcd8981ed48e7bb8d536d3b3bbefee945"
+    },
+    "LXP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "fc6a4c3c17528ecd0f03b101a9197882dd4085d5ba32fe7e8fc0ab1e5337b74e"
+    },
+    "MGY": {
+      "rows": 2349,
+      "first": "2017-06-26",
+      "last": "2026-10-28",
+      "sha256": "96c06372baed5dcdd3825c5260945085b703296a7f931e62d8eaed77ccc27194"
+    },
+    "ZWS": {
+      "rows": 3667,
+      "first": "2012-03-29",
+      "last": "2026-10-28",
+      "sha256": "85cc8f4151e1bb25c0e7fad2956ecbabff1ada1dd8fccb56bb597ea9fd32b39a"
+    },
+    "BN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "25c3af64e448e5162dae4f6449256cfff9ad1c7da21323cdba883dcd87d3370e"
+    },
+    "EVI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ce4683ecff1bcd0dc05ec1cf76aedffab92a4fcc04250feea8def468ac4afb96"
+    },
+    "TEM": {
+      "rows": 596,
+      "first": "2003-10-13",
+      "last": "2026-10-28",
+      "sha256": "5a728ec5a1b70a37bf8d5717cd706048ff70c20c60fb1611983f34d1fd88a3d2"
+    },
+    "PSNL": {
+      "rows": 1850,
+      "first": "2019-06-20",
+      "last": "2026-10-28",
+      "sha256": "de5517587cdc5eff1d4c4a944e841b7b13cbcdff9a65e8b4ec3f5a977d30c0cd"
+    },
+    "AMRZ": {
+      "rows": 341,
+      "first": "2025-06-23",
+      "last": "2026-10-28",
+      "sha256": "3aa33cc7a2099e97446258e8ead8158f96a1a19bfbbfd7e1b88c02d2b9aca52d"
+    },
+    "AWR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c577eafd74fbd514bf568328096c8562bf17161655dec82c199cc83788f57c43"
+    },
+    "HWC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a7fdfbc1a48917596f680c95dfb27454a394f920173683c22ea50fd823d1029a"
+    },
+    "CTRI": {
+      "rows": 635,
+      "first": "2024-04-18",
+      "last": "2026-10-28",
+      "sha256": "ddc5829275c6945bdf2da465b3d03828a63a0a82f43c76763a603725f323e94b"
+    },
+    "UROY": {
+      "rows": 1707,
+      "first": "2020-01-14",
+      "last": "2026-10-28",
+      "sha256": "f6ed93794262cf63abdc5505327e62816007b1fd208b19e0dece284ef6bd3dda"
+    },
+    "CAH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "23a335659f0370e632da9f7d82adc4902c0738b515c82535781383a62ea2b29d"
+    },
+    "RAIL": {
+      "rows": 5426,
+      "first": "2005-04-06",
+      "last": "2026-10-28",
+      "sha256": "1131cbdfa5999f9069b2a10fbf332b3d697e23b368717c11e683c725ef8e538c"
+    },
+    "RGEN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a86af8dbd97f6aac994985ee725265f3fb101c1fad7640d67c982820e923dcf3"
+    },
+    "GRMN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "6ded956f39464efdb5e5e9d682f6994a3d10544daea41ad4119b71c651081adc"
+    },
+    "HMN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b5c704c1aa6e8b765d2e62a2c9f6189ada8d91935961ccf13548468200254eab"
+    },
+    "B": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3c975eac36f0fe474afd5ebaf70175a51fc8e40c6522f3f9501f6b997491bc77"
+    },
+    "THRM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c2ecce73ecf57c4092515f5dc2a420f8ac3128e3080be251d34367d6b4295a7c"
+    },
+    "PSA": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "99a046494e292b5fd7b060f9155ead9b7d17ec315886826a99ff7f1cab4851a2"
+    },
+    "PRGS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "70032ad724ba577c2606bd0279615c968e798d523c0b668cd4a6ab2992509033"
+    },
+    "COCO": {
+      "rows": 4051,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "33a90b6c6f6e3e0aaa419d2cf55e9ddc3c301528fd4fb3aaa558dbbe18e290d3"
+    },
+    "BA": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "10b9d9fe975cf672d98697ed09074e303a22f76d92a92303b601b21ea4ca63ef"
+    },
+    "GE": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "40d47fba2efced819976055574782087a143274b0ad7846cba57b09b0d609fbb"
+    },
+    "SPXC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "1809283a48aa422d45f327adcf53365227ecae283189b029d574b829296aeb4e"
+    },
+    "PODC": {
+      "rows": 788,
+      "first": "2023-09-08",
+      "last": "2026-10-28",
+      "sha256": "c3cf1f850889e5c2c375d99a5830de5fb389cead661f6ee82fcece347788cb79"
+    },
+    "XPRO": {
+      "rows": 3325,
+      "first": "2013-08-09",
+      "last": "2026-10-28",
+      "sha256": "5985e973dbbc3d3c36d636649be4957b4373f909fb274ae441fac433b523fc3b"
+    },
+    "RUBI": {
+      "rows": 1848,
+      "first": "2014-04-03",
+      "last": "2026-10-28",
+      "sha256": "38ab91b4976f3f9ab4e3a700868e5e1e551d36cf02ef7f9fbdf1a8ae596a85ed"
+    },
+    "CRCL": {
+      "rows": 353,
+      "first": "2025-06-04",
+      "last": "2026-10-28",
+      "sha256": "8b97459911cab2933c176ca997fc11228987d9f48499d158ddec31bede6ce386"
+    },
+    "VTIX": {
+      "rows": 191,
+      "first": "2026-01-27",
+      "last": "2026-10-28",
+      "sha256": "021a26c5c45d2ba12e3243ae5a9cdcf5ad89864f6135c76b8df189289c7bd9ae"
+    },
+    "LXFR": {
+      "rows": 3537,
+      "first": "2012-10-03",
+      "last": "2026-10-28",
+      "sha256": "da0f046177869291d1102f6a990417eb9d0362f08ccd254bdb85fbe434245090"
+    },
+    "EXE": {
+      "rows": 1442,
+      "first": "2005-06-24",
+      "last": "2026-10-28",
+      "sha256": "ec9377678251b1a5991a29c6b3d7d206429c5852effc792f940c8e788fd61d3d"
+    },
+    "STGW": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9bf0528ee9888a1933e00e02776047d6e05e63c0da060d2ce5ad6161749fb98c"
+    },
+    "TE": {
+      "rows": 4904,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "8ef8941b25c3b7a1839ecb2d127c4072f9b086e88c7261babb1f56ee6184c18f"
+    },
+    "SPGI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "1b4e6a1f78a10fd11eac6399eadfeed1364088463a6e972bcaccc33962a54ff8"
+    },
+    "GMEX": {
+      "rows": 810,
+      "first": "2023-08-08",
+      "last": "2026-10-28",
+      "sha256": "8f98461f325ee9a4fdf93ee11d18efe5987312aeaa417774960e8f5d787929bc"
+    },
+    "DRS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "f18945e17bd27895cb33fef4fb55f35a41cdbb3e2a646e1b15ac3d10c7488384"
+    },
+    "INGR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "66f318e0026318e0109fd87c5795d38747c3edd894199fefcf34c975e1aa1c10"
+    },
+    "BORR": {
+      "rows": 2098,
+      "first": "2018-05-22",
+      "last": "2026-10-28",
+      "sha256": "1cba931024e9a853b209a900bcf91c2dc740c7efc800249cb52f7e21d0810636"
+    },
+    "XYL": {
+      "rows": 3782,
+      "first": "2011-10-13",
+      "last": "2026-10-28",
+      "sha256": "73a3fa1dd64f498004dd21497f7688dd363fc297e1d7a79a1599bb9dd39717b0"
+    },
+    "TIPT": {
+      "rows": 4864,
+      "first": "2007-06-22",
+      "last": "2026-10-28",
+      "sha256": "fff983434cb16a5339cf72d0c8c9d674011d2516b99cb8ae5214f721648b08cb"
+    },
+    "SMTI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d4158cbd2bcf9d88aad6fc2b53dce978c6e9dcdfab668fa4e3e2cfb9ba632bf2"
+    },
+    "PCOR": {
+      "rows": 1367,
+      "first": "2021-05-20",
+      "last": "2026-10-28",
+      "sha256": "1af74113e86b3a7dcb1ff6f78e26dd2e9b9c0d62f573fefba18ea4c3391234ea"
+    },
+    "CHDN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2cf4343a7f0f7c383b2819ba27a4710a44399111f3e7c5787012260cc84b3a20"
+    },
+    "HCTI": {
+      "rows": 1266,
+      "first": "2021-10-13",
+      "last": "2026-10-28",
+      "sha256": "7b1c0d3778d49719fdbaee4ab31541b0eecbb0a0ecfd8c37160a85bfa62391f2"
+    },
+    "ICE": {
+      "rows": 5269,
+      "first": "2005-11-16",
+      "last": "2026-10-28",
+      "sha256": "a11de8d294753e90e22f35456153f3218981424bfcd0dddb79c3a6f4b01b7b03"
+    },
+    "MKTX": {
+      "rows": 5529,
+      "first": "2004-11-05",
+      "last": "2026-10-28",
+      "sha256": "48f41b9e75f21d2c11385fe60190c277f259624c22da56cc6d94be503655ac72"
+    },
+    "PN": {
+      "rows": 887,
+      "first": "2015-01-20",
+      "last": "2026-10-28",
+      "sha256": "d97c5601e9567b8b6666c0ffbbc4b7933c36dbc95e2282da650234ee9f38f514"
+    },
+    "SRXH": {
+      "rows": 4118,
+      "first": "2010-06-16",
+      "last": "2026-10-28",
+      "sha256": "7c6a3c30e1215c4798be6a01999fa89cfe83af6df77c848e555785003e1b156c"
+    },
+    "BAC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c36dafa2c4d33776b24d740422cdb5930adcedae80b29993fe1ccbe91f01be04"
+    },
+    "OKTA": {
+      "rows": 2403,
+      "first": "2017-04-07",
+      "last": "2026-10-28",
+      "sha256": "bc2c62eb12e76d3d8f7c48894ab149077f9b28b284bc94e52dfbba91722391be"
+    },
+    "TYL": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "af1ff749f4d10dee7600d4752db3eb8f034ba1b696c24e1f95a4932a0e6c55e9"
+    },
+    "AMBA": {
+      "rows": 3532,
+      "first": "2012-10-10",
+      "last": "2026-10-28",
+      "sha256": "3689aaa37a2148ddc96a72d4f2f61e931ec8601574eb72dd1c67ca48a9dea456"
+    },
+    "ITGR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "db2d08110d1cd2a84696de359e47e4df482f2a62addb8f4b374e24415f81d6b2"
+    },
+    "BOW": {
+      "rows": 1643,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "0a04071e3c51c567e80166cec3d7ca0005e8eed7cad772c3432702d18b367e19"
+    },
+    "V": {
+      "rows": 5363,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "a361c7e33729302280a2d350172de5fea714a11d09eb05886b289283bb3cefd6"
+    },
+    "BRC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ceda1a60a8b940fa17c9ae3e44fbb03532f008ebaa0be94d94aa467c34c762b6"
+    },
+    "PLD": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3d906b9048790f687048312e8b28197d64dc094326ccc8746b5c8483129f5bb0"
+    },
+    "XE": {
+      "rows": 130,
+      "first": "2026-04-24",
+      "last": "2026-10-28",
+      "sha256": "d1cfc513df59eec371d723867d06bc0c9b6511622ab80028e10bc3448c54e533"
+    },
+    "PG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "77c766019d3d61661bb10ca1d3019eb5cc6624ab425926ff460bbc7559e96d59"
+    },
+    "LMB": {
+      "rows": 3074,
+      "first": "2014-08-08",
+      "last": "2026-10-28",
+      "sha256": "32e98a0b0449aa0cde883d2745d62df15674c888fe5a12a428228c1124f2ff44"
+    },
+    "AGX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9babf1bf476759275fe767a760c0a455e5a89bd526034d2a10c7f027c9a1103b"
+    },
+    "DXPE": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d9a2b46e901b906e1c41b475b156ce84ae914091ba7c2770d4d5899326f1078c"
+    },
+    "ARWR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ee138c4218153f4eafd6c3199d1e32bfcc8273a05068cb938d423a11f1812e1b"
+    },
+    "SITE": {
+      "rows": 2631,
+      "first": "2016-05-12",
+      "last": "2026-10-28",
+      "sha256": "6abfd131b8e85cc74817c221f146b9cc61de6946bc18cad0fe22708c6d5bcaa4"
+    },
+    "HNGE": {
+      "rows": 361,
+      "first": "2025-05-22",
+      "last": "2026-10-28",
+      "sha256": "740a751c20defc0b43af5b7233177cac48278fc665a8145e0f80093f8f8735f0"
+    },
+    "CRSR": {
+      "rows": 1532,
+      "first": "2020-09-23",
+      "last": "2026-10-28",
+      "sha256": "aad471bab64b007a164daa305d242016c485cc67ddf6c2209abed3347fb411e8"
+    },
+    "GFR": {
+      "rows": 1319,
+      "first": "2003-12-29",
+      "last": "2026-10-28",
+      "sha256": "b774a079a9d1a68c4ffe62e4ddb98cdee9cfce91604d60212a2b5ddedc6400b5"
+    },
+    "BLBD": {
+      "rows": 3172,
+      "first": "2014-03-20",
+      "last": "2026-10-28",
+      "sha256": "91af00d5435efa3a73044d087ad5707c8b7193961339111ea7d28938a9d86f76"
+    },
+    "BROS": {
+      "rows": 1286,
+      "first": "2021-09-15",
+      "last": "2026-10-28",
+      "sha256": "7268682cfef06d28c0c00e0cffc562c3d36696d52665691beda2833cbfd0ee6a"
+    },
+    "BKD": {
+      "rows": 5265,
+      "first": "2005-11-22",
+      "last": "2026-10-28",
+      "sha256": "20d4f3cb829a65f974a0a2e21c3dcb325df0f4344b8649438b4a2514b853c40d"
+    },
+    "GLOO": {
+      "rows": 237,
+      "first": "2025-11-18",
+      "last": "2026-10-28",
+      "sha256": "f9a266a78169bba3ac2774fc2be6cf3f551dca845d5a9dbf0db8fdfc870bec61"
+    },
+    "SUNS": {
+      "rows": 924,
+      "first": "2011-03-03",
+      "last": "2026-10-28",
+      "sha256": "4745413cbd33f95032290cf1a70e3ca6e44bbcf155d5e09bf87d1054e00f9829"
+    },
+    "VNT": {
+      "rows": 2297,
+      "first": "2003-09-17",
+      "last": "2026-10-28",
+      "sha256": "54839fc966534e9ae922d8452e5f8ae2263cb1ef385ca043e60c712e11cd48c2"
+    },
+    "TARS": {
+      "rows": 1515,
+      "first": "2020-10-16",
+      "last": "2026-10-28",
+      "sha256": "5a8733ee27f67ac2fb0f4ef6c4a87caf77d4fded2033ee9ecc8bcd41eb1453ee"
+    },
+    "HROW": {
+      "rows": 4801,
+      "first": "2007-09-28",
+      "last": "2026-10-28",
+      "sha256": "4eced371eb0b18808aa92091691b397c0ef1c1d0ed186d13617369bd513ee2fe"
+    },
+    "AYA": {
+      "rows": 4154,
+      "first": "2010-04-26",
+      "last": "2026-10-28",
+      "sha256": "23400a03e3c05ed6c41db68372c981242cb1dc0e339e845050ba63d006584f5b"
+    },
+    "APC": {
+      "rows": 1330,
+      "first": "2015-01-02",
+      "last": "2026-10-28",
+      "sha256": "0e515b1034bd5e55610702d2ea5bb3710b7db572405aa6d388bbdc6293a4ee53"
+    },
+    "IRTC": {
+      "rows": 2519,
+      "first": "2016-10-20",
+      "last": "2026-10-28",
+      "sha256": "48de98f22daddc6372020205b752f93370db3368697594acae4c28e617d86be6"
+    },
+    "HIG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "8eda76901d5ffa035add61f181279df1ae80af9cf1396c76175cb890bf6e90d5"
+    },
+    "DV": {
+      "rows": 4806,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "3c7a51ee6491af7585a37e55adccc0bf65438a2daf6d472535f2fd02fc30b727"
+    },
+    "BIIB": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "19763d37163978ebd63107f7862267f41c0d7b092c9f8e4067b00c922143fd0b"
+    },
+    "MRP": {
+      "rows": 435,
+      "first": "2025-02-05",
+      "last": "2026-10-28",
+      "sha256": "0b1e56987d04ecf66b869c13af3f847b12d624fe35d5f09adfba90f14a9915b3"
+    },
+    "DFH": {
+      "rows": 1450,
+      "first": "2021-01-21",
+      "last": "2026-10-28",
+      "sha256": "f27e7f5a6f01fc2f730d27f5367d94e85a7be850b073747883831215f581a8a0"
+    },
+    "JAZZ": {
+      "rows": 4884,
+      "first": "2007-06-01",
+      "last": "2026-10-28",
+      "sha256": "50e39b26524e9abf2ada01cb096fe04c73c03035efd08afcbdce64eba2717cfc"
+    },
+    "VATE": {
+      "rows": 4352,
+      "first": "2009-07-13",
+      "last": "2026-10-28",
+      "sha256": "4f5cd17115aedf26c4a86925ea1eaebdd2d2b851b4bdcfbe5abbae467305c518"
+    },
+    "WU": {
+      "rows": 5058,
+      "first": "2006-09-20",
+      "last": "2026-10-28",
+      "sha256": "a19b2435997feb1eb17bea5358b1b6450cb22320cc004e56ca0d2b31ada188dd"
+    },
+    "ANDG": {
+      "rows": 217,
+      "first": "2025-12-17",
+      "last": "2026-10-28",
+      "sha256": "1183086324c9b6c9b4a4ad492beac69cfdd26d14371e980083824383489a1030"
+    },
+    "TRNO": {
+      "rows": 4205,
+      "first": "2010-02-10",
+      "last": "2026-10-28",
+      "sha256": "4c59d8d83bd365f7274ed82aa14a9c119e2d4dbe5b718bcfeff4e60fa1bfbb84"
+    },
+    "YUMC": {
+      "rows": 2522,
+      "first": "2016-10-17",
+      "last": "2026-10-28",
+      "sha256": "63da31bca924dc01749c3bd501668c269b467476a9b1dd72f212b682e55eac5e"
+    },
+    "ACHR": {
+      "rows": 1471,
+      "first": "2020-12-18",
+      "last": "2026-10-28",
+      "sha256": "0e76ad92bce4e01b672ea5e04810c5bfa3204b62f69a917b4fb9ee6c9ccb7986"
+    },
+    "RBC": {
+      "rows": 5681,
+      "first": "2003-09-12",
+      "last": "2026-10-28",
+      "sha256": "44b72d6340c94f6573e7b8fd68c5ec3e52cbceaa8b127f4ac98b347d4bdb59a0"
+    },
+    "WBTN": {
+      "rows": 587,
+      "first": "2024-06-27",
+      "last": "2026-10-28",
+      "sha256": "01dcef576f79fba61df7d2c90d7cbc529763c4e48a67c890db663340c93f25e8"
+    },
+    "BMM": {
+      "rows": 409,
+      "first": "2025-03-14",
+      "last": "2026-10-28",
+      "sha256": "c2bef8b6d95e19128449a26a2d34b0f3e56894ee2e1f588779a11caebe293742"
+    },
+    "ETOR": {
+      "rows": 368,
+      "first": "2025-05-13",
+      "last": "2026-10-28",
+      "sha256": "104dc2758b24cb02868b389ceaf2ed3ee0039ef6af2ff9c1c2d14dfeec8ed829"
+    },
+    "NDAQ": {
+      "rows": 6122,
+      "first": "2002-07-01",
+      "last": "2026-10-28",
+      "sha256": "bc6655d4569be48b293c6ba517ac1c989167d24491946a69f511868101a36011"
+    },
+    "VREX": {
+      "rows": 2457,
+      "first": "2017-01-20",
+      "last": "2026-10-28",
+      "sha256": "729bcf8d6d7b68034f3d23ce9a266371d3f235652e67e76b319992feee760e16"
+    },
+    "DLB": {
+      "rows": 5458,
+      "first": "2005-02-17",
+      "last": "2026-10-28",
+      "sha256": "c9f512f5604310ae119e6e615cd4247ec38e81926d6e552d8ecb6bd8da427030"
+    },
+    "MRSH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "bc2eb24352801a070258de7c6098febf9c270e855e58635c6b7de8ce8ccae6a4"
+    },
+    "CLH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "03ad8a42ff1fc194313aed705486af9fadf410f1bd5f1b6d8dddceb26079804c"
+    },
+    "PTCT": {
+      "rows": 3360,
+      "first": "2013-06-20",
+      "last": "2026-10-28",
+      "sha256": "d6768938cf7071218c8232de7c1be68da8cb3d6241533930589955a8cd699f17"
+    },
+    "AVEX": {
+      "rows": 137,
+      "first": "2026-04-15",
+      "last": "2026-10-28",
+      "sha256": "72d7fb32d3034f9c6308ecfb9dc95d6bbf13e966b512f5c744c767b0892932ce"
+    },
+    "DUOL": {
+      "rows": 1320,
+      "first": "2021-07-28",
+      "last": "2026-10-28",
+      "sha256": "f0045d6439bb962b1970ab9bcf19949d1fa40399ba4147d19faab6389a4331e1"
+    },
+    "DT": {
+      "rows": 3511,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "0acb2827d9fdd5e592ef1e0341cad5eafec900a999ab8bf5896932f617747672"
+    },
+    "EMA": {
+      "rows": 4396,
+      "first": "2003-09-11",
+      "last": "2026-10-28",
+      "sha256": "4eaa007ee72bb166ae8ade7af5619d80b6185c562ca4aae521d5f50ea19d3c76"
+    },
+    "0700.HK": {
+      "rows": 5524,
+      "first": "2004-06-16",
+      "last": "2026-10-29",
+      "sha256": "54f1dcb203dadffb146fba2b7dedc595abca3154c57f4a8d33e7236c001ffaf7"
+    },
+    "2800.HK": {
+      "rows": 4638,
+      "first": "2008-01-02",
+      "last": "2026-10-29",
+      "sha256": "a6043c2014d82ce857866fd8600d2d3df3447051e03ff0b0fc9d25fb125147c7"
+    },
+    "LAMR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "951eece70f2a9bd25313d75b28605f5904816e6ed69602ba1f8db1b58eea0d25"
+    },
+    "ACCO": {
+      "rows": 6241,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "69859e15619b213ad56c2362cf12047ffecb32ba52a2c9ffc41cfb9516510074"
+    },
+    "HHS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "e31ba1da7e7d729ba1dc4bd87a98b3e243947d2b6e94a7b46e61357c859f950d"
+    },
+    "PAL": {
+      "rows": 3322,
+      "first": "2003-09-25",
+      "last": "2026-10-28",
+      "sha256": "14e06f91c83289a5e8755c28ba2763100e69d11705179750ae6698d58be93dcd"
+    },
+    "HZO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b8d2a6e3368d5cda824f7992df193317fd4bd542ead8600d78e384ff7db18776"
+    },
+    "TTMI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "73fd59a66f9a813d892f4778aa8c56677750e6ea1f0f4553ac5cab46720eef4f"
+    },
+    "MAIR": {
+      "rows": 2546,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b7042aa5e2b3578ea8dda8eea766a6dd88e074fd9133b0c213b903596325bb8c"
+    },
+    "OGC": {
+      "rows": 4615,
+      "first": "2008-06-25",
+      "last": "2026-10-28",
+      "sha256": "fac1bf955e00b1793f76b49e0d7c19c714465f4ec9f14d8270f36abcf93b7938"
+    },
+    "KAZR": {
+      "rows": 444,
+      "first": "2025-01-23",
+      "last": "2026-10-28",
+      "sha256": "9ccce37b217ca3b9775a104b939f8ba6026f13599daa3b480c1eece406d5d2a7"
+    },
+    "FTNT": {
+      "rows": 4261,
+      "first": "2009-11-18",
+      "last": "2026-10-28",
+      "sha256": "6c9c28e2251a41caa6b6cba9a7012d4590295a4f8adbb6213670fb55a669bb0d"
+    },
+    "HTO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "0ef26bc6bbb282d62b69549291936cb1e8d351377547303b5600e5a427c04823"
+    },
+    "BSAC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d1185b3a18e32fa416278e70976b3b269cd171fd63afe510e79679c652dc00b2"
+    },
+    "ONDS": {
+      "rows": 2026,
+      "first": "2018-10-05",
+      "last": "2026-10-28",
+      "sha256": "31391cb1507ee66a3739493638df0190c6113c2ab665e8974870b83f1184a446"
+    },
+    "SNEX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a327c799845758e6cc0172cb3027e06ed875a929519953bb01d515f9fb601efc"
+    },
+    "VLTO": {
+      "rows": 775,
+      "first": "2023-09-27",
+      "last": "2026-10-28",
+      "sha256": "46019389276036f421ee31c31ff65fc65c289693818aaa050f23cc0f584951ef"
+    },
+    "ZENA": {
+      "rows": 521,
+      "first": "2024-10-01",
+      "last": "2026-10-28",
+      "sha256": "36b652adf92de4c1946d4c31bb81a5a1281eda5a687282d2b4f3b208b2369819"
+    },
+    "VOXR": {
+      "rows": 1572,
+      "first": "2020-07-28",
+      "last": "2026-10-28",
+      "sha256": "c6bb68effceb05db4f95b2634a80c698dbed37f2a43871f065058dad2f8f4984"
+    },
+    "SCSC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ffadd6d2c8c4bc0ae5205cb8629e7e0508f800bdcbc8631fba22fc8f745c1ea7"
+    },
+    "CNS": {
+      "rows": 5588,
+      "first": "2004-08-13",
+      "last": "2026-10-28",
+      "sha256": "599ba43e47f94d239b9c6d032544956cc5b4495053d0f9cc76eba53fd35047c3"
+    },
+    "NVT": {
+      "rows": 3119,
+      "first": "2004-08-09",
+      "last": "2026-10-28",
+      "sha256": "eafc9459cd03ea684e94ecaa43fada602ce5af1fc6db37db2de589cf89ba0524"
+    },
+    "PLUS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "8ded8eeca557275bd351d409c012840097b882e3f2fe4465366b866e5140b559"
+    },
+    "VLY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ed3a9bc97ff976fd5b014b8bb92e5f5803354a9cb054109ba98b1519bb444e7b"
+    },
+    "MCK": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "778cc51ae8eb8a0ed1c869ef652656c657df747432cddad7409affcba2beabf4"
+    },
+    "ENB": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "ccbfa0b5213c65a4eae93675e40d15680095971afc7bc10abe1aa06721625bb1"
+    },
+    "PRTH": {
+      "rows": 2502,
+      "first": "2016-11-14",
+      "last": "2026-10-28",
+      "sha256": "5e769ab0070ae67eec4c9e9ff473eca85d730ec89d1524ba5264492f578027de"
+    },
+    "AMZN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "374926750ecce25c19c7a31fcd3c431f75e66dc652f705ca8f01f5f3704e1625"
+    },
+    "VCTR": {
+      "rows": 2192,
+      "first": "2018-02-08",
+      "last": "2026-10-28",
+      "sha256": "8fc86e3d0f3c9c40e2dd6adac0a02df7ef9c7aefb3baa8d2d33af99ab998cb22"
+    },
+    "GMED": {
+      "rows": 3579,
+      "first": "2012-08-03",
+      "last": "2026-10-28",
+      "sha256": "4c035d88f7fb4ae9aa484b60e12659afb529e9084652bbf3e5b93c24991118f7"
+    },
+    "AME": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "f1c3bba41978546f94698fadc4891fbc775efb3eb4bcc426a9259c3b5199904f"
+    },
+    "VEL": {
+      "rows": 1704,
+      "first": "2020-01-17",
+      "last": "2026-10-28",
+      "sha256": "dc62292bb4d532eb806f4c88df60f1ca256bfb56fa2ecb22db9041c4e67d5bcc"
+    },
+    "SAH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "094401c799f2e17be987338e7b8fce78e4b9ef7c50008788f8b99e2da6b7c1c3"
+    },
+    "DIOD": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "50151805e1c61f8dad127ec4e32146a9b4edfd0303f5ebb3b4c3d557e368646b"
+    },
+    "BTGO": {
+      "rows": 195,
+      "first": "2026-01-21",
+      "last": "2026-10-28",
+      "sha256": "3bdf72c11a79b8f7cd659a3c0c53007346597ccd0b9969692c17e0ba8d44a946"
+    },
+    "UUUU": {
+      "rows": 5012,
+      "first": "2006-11-24",
+      "last": "2026-10-28",
+      "sha256": "e3df928c9ddc60bfde9c8118cc8ddb2a90f19a42ee89423c508bdd4bc936d7f0"
+    },
+    "VWAV": {
+      "rows": 1255,
+      "first": "2021-10-28",
+      "last": "2026-10-28",
+      "sha256": "f68352693c6ebce8088a1e646d59796cbdce0ca47eed4fb5cbbc14eb90a64f59"
+    },
+    "VSEC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "41de8211a56ae90ab464954fa5f6813f3fc8061f1b44a01603b641b80a09969e"
+    },
+    "SYK": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "08c900293c70d0c9e49e9f248040418f4764ba8c21228e2c1fe44ed200c5375b"
+    },
+    "STC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "8477182334f758d2335ff6509b9159d3c408445aa5de48fd8afb4b781cadbb76"
+    },
+    "ACIW": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "dd5be3f115b65c97791e2f326f1de54f8463793c60086f34b46167977fd3b8c5"
+    },
+    "BANR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "806674e7f1cbb73366b8bb4402de102120a6044b183fe1534f3607759c481fab"
+    },
+    "YUM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c11e75af2099f990be2b6168b02c78159952b58f5eb989728d782bfe3e7fe5b9"
+    },
+    "HUT": {
+      "rows": 2173,
+      "first": "2018-03-08",
+      "last": "2026-10-28",
+      "sha256": "6bbc9dbe61da08666dba34e7d16178485e045ffb801981a68a04986e90a6b4de"
+    },
+    "GGG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9499251fbfaad172469e253e9ab1aaa58bb60085c91b215e16764d5bdf3392f1"
+    },
+    "CRC": {
+      "rows": 2937,
+      "first": "2006-12-20",
+      "last": "2026-10-28",
+      "sha256": "8abbbf090de35784890d654d55f967ba7d2fe4f67ee7ba618672b2ca0465bbe4"
+    },
+    "TDS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3d241666693394c3062d390c21d348cf3e640ae980809b350ca495604a80750a"
+    },
+    "VRT": {
+      "rows": 2656,
+      "first": "2015-01-02",
+      "last": "2026-10-28",
+      "sha256": "35f8fe7616808907a9d8ebaaa5fe88c91e5390f7cd0e83b2ff05bb37c884b64b"
+    },
+    "FTRE": {
+      "rows": 845,
+      "first": "2023-06-16",
+      "last": "2026-10-28",
+      "sha256": "0c187e03d0a3fd6ad052a92f06441d9513efb5ec67b8787d6aa2986dd222b6d8"
+    },
+    "DSGR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "dd1e70e830f18d42a89ffe5110ef44a6428b1cf8827a54f15764447433130f4d"
+    },
+    "MH": {
+      "rows": 319,
+      "first": "2025-07-24",
+      "last": "2026-10-28",
+      "sha256": "58aedfe3e9a6005a190cc337e641cce56e4e7f76f10cb01640dee2b60b062704"
+    },
+    "ALHC": {
+      "rows": 1405,
+      "first": "2021-03-26",
+      "last": "2026-10-28",
+      "sha256": "d76c140539bb27d02d6dcf32b25fde14218170aa129871101bcdcf08f0dcdc30"
+    },
+    "NWPX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b5a0b6ce557b324487a3607ec55e7bbaca54163f4032b05fac39ee4dbda03d4e"
+    },
+    "APOG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "384c9cb03f85d7a29a077d204b1acfe02c49a5c0d9cdc6ba654b3fbbd937deea"
+    },
+    "AHR": {
+      "rows": 2225,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "36c8e3d30d2aedaba44749d286a4cfe398bdc46c492df91f0eb072807548749e"
+    },
+    "HFFG": {
+      "rows": 2298,
+      "first": "2017-09-07",
+      "last": "2026-10-28",
+      "sha256": "c26b9c19552a563a20d09755a6c1ebedc3a63219ac1ce497d14aa3490a9d9117"
+    },
+    "ABBV": {
+      "rows": 3492,
+      "first": "2012-12-10",
+      "last": "2026-10-28",
+      "sha256": "30ee98a318b49ced83648e6401bbe60e68445f240237be4d7474e78664763b56"
+    },
+    "FLEX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "f89e7408391dc8e0569f26ac6c940981158d73ce487b68db2e8ebf555aada0c0"
+    },
+    "SOUN": {
+      "rows": 1130,
+      "first": "2022-04-28",
+      "last": "2026-10-28",
+      "sha256": "6bb6081f6d1d3b0e26b4342799877e43b6b54045ffc46b1ece8c5cab6728fd4d"
+    },
+    "NRGV": {
+      "rows": 1404,
+      "first": "2021-03-29",
+      "last": "2026-10-28",
+      "sha256": "74a5d67ee1e006acfb9906bfd4ff69a4a83b8065348fd7b66e2857394313d1b6"
+    },
+    "XOM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "4032d6e443e7c0d92bbc470511d936c59b2c83a57e28a10e3a798b3a46b3fc50"
+    },
+    "FUN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3d37f3439ddfdce2d6d22d865828d8f145ec8702677cbc7f85ee7e3e5e57cdf5"
+    },
+    "LH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2805578658892fc5850739ad7cd4a86060af3275795712754b18efe7db4258af"
+    },
+    "CNXC": {
+      "rows": 1577,
+      "first": "2015-07-01",
+      "last": "2026-10-28",
+      "sha256": "1956c053fca4da88352901b638c6ce86d0ad8488f91b1efbd341adf209dd1e5c"
+    },
+    "ELE": {
+      "rows": 1567,
+      "first": "2020-08-04",
+      "last": "2026-10-28",
+      "sha256": "29276193f6c719e2326de319b21131519371d512d93884b106ed1b88eb5c18b7"
+    },
+    "RVTY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "e2433e16187bd887fe61da08d65148b1711f7bbf36a58d6ef88da93caa5f0e60"
+    },
+    "ZSQR": {
+      "rows": 1472,
+      "first": "2020-12-17",
+      "last": "2026-10-28",
+      "sha256": "c0360757cbf49a86b7f2d3d55260fa481838a968329513748d347aea10145164"
+    },
+    "HLIO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9d8f67fc115230463972e6e361d348659d72baff69c179c95eb848c0585033fa"
+    },
+    "AXGN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "071655b6b27f142d082758173b69d997b7639cedca5d0e08846a390148267193"
+    },
+    "CPRT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "94afe0a7fbf3d966adeebf5c2acbe229e661e913c46fb528628df4e65dc39821"
+    },
+    "RUM": {
+      "rows": 1395,
+      "first": "2021-04-12",
+      "last": "2026-10-28",
+      "sha256": "2600259279e5778109858aca0e973803d6fb35dd6e73e8b2ba2e874f45bf24f6"
+    },
+    "AIRJ": {
+      "rows": 1191,
+      "first": "2022-01-31",
+      "last": "2026-10-28",
+      "sha256": "e03b4b3a94cbc4fcd3bf040104fca6c4d930f6f827bdbd4bda86a247bab7b3ba"
+    },
+    "ADUS": {
+      "rows": 4276,
+      "first": "2009-10-28",
+      "last": "2026-10-28",
+      "sha256": "73b17adde2371d174b3a2504b39fff346a985e7d410626fd73f8637f30fbfa9b"
+    },
+    "PRDO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "0efc1e1ead1722641f8a7ae4257fbd18e191534dbe3e49d91fb175f5c79db8fa"
+    },
+    "CTO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "cbd4e5025cedfc17cd0b1c0d60e740d5624b1ea2c8131504a0337c4fb934a878"
+    },
+    "VCYT": {
+      "rows": 3268,
+      "first": "2013-10-30",
+      "last": "2026-10-28",
+      "sha256": "e971eae6e1971f5b10102cdfd0bdef91ae6867d0e858c12cd5f5c7bb6c6a66cf"
+    },
+    "CTRE": {
+      "rows": 3124,
+      "first": "2014-05-29",
+      "last": "2026-10-28",
+      "sha256": "ec2656ab0e90636c2733a46d0751899f7c377d05d6d6f4fcb94be466d85dcbb3"
+    },
+    "OBIO": {
+      "rows": 1567,
+      "first": "2020-08-04",
+      "last": "2026-10-28",
+      "sha256": "67e074cddbb93145083581d8426a5241b5fd261db81a68f9482ee0bc46b0cae2"
+    },
+    "AGPU": {
+      "rows": 4163,
+      "first": "2010-04-09",
+      "last": "2026-10-28",
+      "sha256": "5cc8985a235630e3f881d8b7a87f362d512639212c3243ec9451da79bc395f7d"
+    },
+    "IDXX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c080e09d7eae5a4182c015dc63e7d368e3dcd5fb18bdc7d53dd89f11843260cb"
+    },
+    "DASH": {
+      "rows": 1478,
+      "first": "2020-12-09",
+      "last": "2026-10-28",
+      "sha256": "3c699dba03e482e0489347f9feff4bd97941f120575bbb24f8b065445f462af3"
+    },
+    "CHE": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "0a2e2819e0540f50242d64590aed1ead209ed0e24bb762b016e1779b59cbaef2"
+    },
+    "PXED": {
+      "rows": 265,
+      "first": "2025-10-09",
+      "last": "2026-10-28",
+      "sha256": "410c082024350c415d5b0e5f51f4d676de3428b59f3cd01d47bc827b3a1d02d7"
+    },
+    "PSO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2911dda6c43f21d928562c011b2608d371cff7ae80158a0857449c250630694b"
+    },
+    "PZZA": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b533e6dfadfa7472f4bccfe233048368d5e80afe489db0adde9484be8ed293c7"
+    },
+    "AREC": {
+      "rows": 2366,
+      "first": "2017-06-01",
+      "last": "2026-10-28",
+      "sha256": "2b308b18bcf370399de20200b524f9acae5579974802ed13c62f33498b2b03c8"
+    },
+    "BL": {
+      "rows": 2580,
+      "first": "2003-12-10",
+      "last": "2026-10-28",
+      "sha256": "80654a19e9aa60accd02e52a968eb0b90f0baac42bab0e69d3abac9d947c64a1"
+    },
+    "MCHP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "238f6bff00a63613685eb6c756070f30058240242d05d944523915abf6d5bf54"
+    },
+    "VGZ": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "8e3a26b24545484564b63a94f1ddec8aa4f9ade7ee0fe3d481860fa0f163dc61"
+    },
+    "CGNX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "fd038e1f8f158161952ab0e74b6bb1f8ca1748df7403a8504d87e3ac146a5b80"
+    },
+    "NTNX": {
+      "rows": 2533,
+      "first": "2016-09-30",
+      "last": "2026-10-28",
+      "sha256": "4832f43211ef49e82a8e78d756f615332e605ee6002d0e919f475ae555e5922b"
+    },
+    "WLDN": {
+      "rows": 5014,
+      "first": "2006-11-21",
+      "last": "2026-10-28",
+      "sha256": "1f6d9175449f685b610bd06b8cb909203b75f4c1a7e742f8e85d222b4b5ac6db"
+    },
+    "RPM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "5f586b584ea4374c7a34b9b050a22d2fb95dc08f7c301c7a8343d41cd64191e3"
+    },
+    "HAFN": {
+      "rows": 1599,
+      "first": "2020-06-18",
+      "last": "2026-10-28",
+      "sha256": "5ba60f7f0b5886455895d8289bb6955b3c32d3886cb09485d2f7d84a2ac412cc"
+    },
+    "PPLI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c40f3cfd66c1a3be1a1a32d1d5d0412a3c6484fb8070fa4818250e1f6182348a"
+    },
+    "WTTR": {
+      "rows": 2394,
+      "first": "2017-04-21",
+      "last": "2026-10-28",
+      "sha256": "f76f058dfdecf4c4da7bc8244dece81024232489d83bbc12f1a9e28839cd377e"
+    },
+    "ETN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d0a5014143ef12f8c1345c37faa51f53545d301106bed683f5f64ac15767fece"
+    },
+    "CELZ": {
+      "rows": 2759,
+      "first": "2015-11-06",
+      "last": "2026-10-28",
+      "sha256": "cf6a12d9e3e31f4207f3fb97c6abac1e3b06c71ec3cb91c1992e33d8dca81453"
+    },
+    "VTS": {
+      "rows": 1781,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "15e63641aa82de22b19eb81742f2fbc2d10e3600ba8d95c4789973fac7612604"
+    },
+    "BRX": {
+      "rows": 3268,
+      "first": "2013-10-30",
+      "last": "2026-10-28",
+      "sha256": "aa357daba67467c5fbc9444823016273bba8afa0e8e8551ef8c4db96762bd0b1"
+    },
+    "LFCR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "efce8e19218dd837ccddc588567220e414b6810413200f05d5904d431493502e"
+    },
+    "RILY": {
+      "rows": 4834,
+      "first": "2007-08-13",
+      "last": "2026-10-28",
+      "sha256": "523e2c0c9c2045605b9fe2f37175b338c520b383765c29ba2f282643d8ddd9ce"
+    },
+    "QNC": {
+      "rows": 2485,
+      "first": "2010-12-22",
+      "last": "2026-10-28",
+      "sha256": "60de31e7a32af97929bbfe01731a5f084599d75a21a86a67b7bd86a1a20f9ed2"
+    },
+    "HWKN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "0f1f8e0fff1e67d98c1e99936781495360db63591d8116cdaa5015a619296a5c"
+    },
+    "SSTI": {
+      "rows": 3931,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "1cde8cc37b8936f6e6301aab5555785e2b1955f8602ff68dd1c51706c9e04990"
+    },
+    "AVD": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "5e5901c53a6a2a59cce90b72783be5f4ef5e69656db2a12aedcb532d4a68c794"
+    },
+    "HRL": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9342e7be8930d6f20304af2debfc55452719dd34fa2ccbb51b0bbb4ad58d43d5"
+    },
+    "YEXT": {
+      "rows": 2399,
+      "first": "2017-04-13",
+      "last": "2026-10-28",
+      "sha256": "afafa802f9216cfb77673d2a4a5ce09effe0232231ce36633559fd9bced44b5a"
+    },
+    "INSG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "73d283178f101c252921b17fec013a34210fc0fe88156593347f11d1e90b2d04"
+    },
+    "DGII": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "5430015dbbcb2f2c20af097a2c5e5e0299c7decd13fe0034c7fa2d9c233a2d30"
+    },
+    "SYNA": {
+      "rows": 6228,
+      "first": "2002-01-29",
+      "last": "2026-10-28",
+      "sha256": "320dd2c2362b79c54c4f7777d774b2e4e208729d35141933951b81f165991e61"
+    },
+    "ROG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3afb7dbca1d97910340d89602c010d40f5852a687f331f1ed3d8b7a6c254aa07"
+    },
+    "MAT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "87fe283da03cdb6ee5e0e7ad4945d928b8b89c9351ff05828949e48382093ec0"
+    },
+    "LQDT": {
+      "rows": 5203,
+      "first": "2006-02-23",
+      "last": "2026-10-28",
+      "sha256": "3d28218b36425fcdb9bc064bd7dd1fc0cefc87bc041e3d179510f06d1cad3648"
+    },
+    "ALIT": {
+      "rows": 1579,
+      "first": "2020-07-17",
+      "last": "2026-10-28",
+      "sha256": "72f3602c09d5ef05c4ddc0adafaaad7f11d92dc453b59fecfe62a006bd7baa8d"
+    },
+    "AUGO": {
+      "rows": 1964,
+      "first": "2019-01-07",
+      "last": "2026-10-28",
+      "sha256": "9662be309a6f8e0659e471fc3d8eb466d71d7353795a709f27f293b217209a54"
+    },
+    "FEAM": {
+      "rows": 1161,
+      "first": "2022-03-15",
+      "last": "2026-10-28",
+      "sha256": "97e3120c475fbd5d49f08100c29aa261af7b52cd47ee53a35d646b67b1828ea0"
+    },
+    "CVE": {
+      "rows": 4262,
+      "first": "2009-11-17",
+      "last": "2026-10-28",
+      "sha256": "a1d09e845be47f6271a425f8b06ed53c63d09f15f5679118527c734f95e8106e"
+    },
+    "WMS": {
+      "rows": 5602,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "b1fc2b77055ea5c2c6c0e3f3b872c3cbbf854728395a7097e3a6148544a33f94"
+    },
+    "SAIC": {
+      "rows": 3300,
+      "first": "2013-09-16",
+      "last": "2026-10-28",
+      "sha256": "fa5c1c1e429a57679c0ab7f74a66d304fe4599681810624fbf1d9a588c335088"
+    },
+    "CHRW": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d340c04a0aa410e3416ab0d9911f5ab80af825cdf2aa6197f2f51a82d8a24e38"
+    },
+    "ZETA": {
+      "rows": 1353,
+      "first": "2021-06-10",
+      "last": "2026-10-28",
+      "sha256": "a89cdf2f41a965c0c8efc515d5ec5371e8a2cbaa8ad4e5852d93edee484085fb"
+    },
+    "FNV": {
+      "rows": 4752,
+      "first": "2007-12-07",
+      "last": "2026-10-28",
+      "sha256": "dce7c6005ffb4f45936f232373ca82e514b183d5fefec9a248463b4ec6157218"
+    },
+    "OPCH": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a4f57c11dc293034ef84a41bd4579eb600a83bb571e74c59407a46ab326211a7"
+    },
+    "SKY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "fff3023441f2abf0158cdb6ac7d47a03ecefd6c17c0afe56f69e76a89edf3638"
+    },
+    "ALLE": {
+      "rows": 3296,
+      "first": "2003-10-16",
+      "last": "2026-10-28",
+      "sha256": "d6086e080d3a64c18100a1bd89c77c373a677082fbf2536ac1f59f8abcfba9d1"
+    },
+    "UBER": {
+      "rows": 1878,
+      "first": "2019-05-10",
+      "last": "2026-10-28",
+      "sha256": "a8ecbda95d94f8e91de451a913f5f61479d9145fa65ba73b0ab4c89b81334bb5"
+    },
+    "CG": {
+      "rows": 4827,
+      "first": "2003-09-10",
+      "last": "2026-10-28",
+      "sha256": "acf45d64d6563e1c33ddcb58fb05d4ab65d7af1462ed8ca3f38201c37cb1ae08"
+    },
+    "CRUS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "4e1c6f6ca73b9e66dad9567feccdd826471de93125f680a4e87c0e63bdc74ad6"
+    },
+    "OKE": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "6c0a0447812a700fe055d5f83e65d32bf75138263dbe9b7528afb6b6316cd83f"
+    },
+    "GLNG": {
+      "rows": 5930,
+      "first": "2002-12-18",
+      "last": "2026-10-28",
+      "sha256": "dd6bcce2851b4aed5f0732612e5a4f9fa5b535ecb92a437ea94c8a2ac069e864"
+    },
+    "HCSG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "1332c8f644d3b5a0d158fd5ae5d7acf6e5259f9e3ea117529c66bc9c66662890"
+    },
+    "SNX": {
+      "rows": 5767,
+      "first": "2003-11-25",
+      "last": "2026-10-28",
+      "sha256": "e8d8f529cd982ad8bc33a79990d3896fb5bbc04aa5cd1f267a7a8fb3bbde160f"
+    },
+    "DTI": {
+      "rows": 1213,
+      "first": "2021-12-29",
+      "last": "2026-10-28",
+      "sha256": "5f1701dd6610dbde65ef34aada6e06608348d8ed2216aee1b1a763786cdf23ae"
+    },
+    "GOLD": {
+      "rows": 3175,
+      "first": "2014-03-17",
+      "last": "2026-10-28",
+      "sha256": "82ac84e60a30a2dd58d9ef3ad449abd9f7d8fb746d7eb3e55f16410ae707e905"
+    },
+    "FLOC": {
+      "rows": 448,
+      "first": "2025-01-16",
+      "last": "2026-10-28",
+      "sha256": "d434866eed2a756cdce9bbd8f3c2e2e66930290c4b5d88242db980277ec68413"
+    },
+    "CRGY": {
+      "rows": 1227,
+      "first": "2021-12-08",
+      "last": "2026-10-28",
+      "sha256": "db82c669d921aea751d4174ca88638bf21ff4f3bcf8b2540ffaee70ab543c820"
+    },
+    "PCRX": {
+      "rows": 3957,
+      "first": "2011-02-03",
+      "last": "2026-10-28",
+      "sha256": "64121ec55ba679eda7d4993400e181f70597795feaae1f1ba2686398d2d1bf5a"
+    },
+    "DAN": {
+      "rows": 4736,
+      "first": "2008-01-02",
+      "last": "2026-10-28",
+      "sha256": "8fd15fcae59e917315f6be53a5bc63778f038aeda7e677c816c1fc02864f0f63"
+    },
+    "XMAX": {
+      "rows": 3780,
+      "first": "2011-10-17",
+      "last": "2026-10-28",
+      "sha256": "78d866e031d5b4895f779bb386fa0262b3eb14ebf3c8ce613578f880a9577eb7"
+    },
+    "HITI": {
+      "rows": 1946,
+      "first": "2019-01-28",
+      "last": "2026-10-28",
+      "sha256": "69ad16dfb9c121ae62e08897dd6c580bef8df6c38b53cf38f5f2ac9bb1b592cb"
+    },
+    "SBUX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "f291c503c66b6751865e83b0082e5ade6d94df3e64169d02d78ab0f7efed60da"
+    },
+    "WSO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "2f8e4c984eb6a63852e87b7c2940ac0c26870a0cf46e3b889660fb421d8886ae"
+    },
+    "MSTR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7c892d7b5685d648da7a5548e5631c18a60a32ecd045014c5997ba08f1c2c393"
+    },
+    "IONQ": {
+      "rows": 1462,
+      "first": "2021-01-04",
+      "last": "2026-10-28",
+      "sha256": "5d129290fec9fc6064e656b527967480151861ed92b9293e8416114b9c311cd2"
+    },
+    "LRN": {
+      "rows": 4748,
+      "first": "2007-12-13",
+      "last": "2026-10-28",
+      "sha256": "a9f9b8c6c0a01ec49bafa466709a5da29838ed182d636dade1fe264965e09195"
+    },
+    "EQH": {
+      "rows": 2129,
+      "first": "2018-05-10",
+      "last": "2026-10-28",
+      "sha256": "7e2b5b9dab56c02fa932c7253d2c699290912c26d81d485b2c3dc4f2b8300081"
+    },
+    "SSRM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a5b31a5cc4ebcce13228a9c27ba0ea030e224fc8ebc9bc491ef2d5b9d62f1148"
+    },
+    "PRCH": {
+      "rows": 1708,
+      "first": "2020-01-13",
+      "last": "2026-10-28",
+      "sha256": "d66b644a67da33049ceb3eb7ad0d22b894ceb073880aafc368ca923e1b673dca"
+    },
+    "WELL": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "273c7d75a60fd9cbe48842e65a08d74b8ad9ceae0b9e71a79111abfe0a72182c"
+    },
+    "SILO": {
+      "rows": 1529,
+      "first": "2020-09-28",
+      "last": "2026-10-28",
+      "sha256": "a38b48b6ce60cee90a3b94305a88bd3a19666de55e715929b9ce5bf22774c332"
+    },
+    "CCC": {
+      "rows": 2656,
+      "first": "2015-01-02",
+      "last": "2026-10-28",
+      "sha256": "f5f126a3ef9ae5448225fce5a97ddb7445d5291a65c392e7f0691e80ed6c626c"
+    },
+    "INTU": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "fdcdeb513ba1ba59cc24da7d67934c615a8b80c701099bf7fc39b9dc5ce98d73"
+    },
+    "INSW": {
+      "rows": 2513,
+      "first": "2004-11-17",
+      "last": "2026-10-28",
+      "sha256": "1eef3bc71163296c83025791d904843a2e1d866d3371daf0e47059870176b117"
+    },
+    "ZTG": {
+      "rows": 287,
+      "first": "2025-09-09",
+      "last": "2026-10-28",
+      "sha256": "13b1c4428353aa138c6becf77d564dce793be9ff31a6f80c2b24949b1092ab6c"
+    },
+    "BMBL": {
+      "rows": 1435,
+      "first": "2021-02-11",
+      "last": "2026-10-28",
+      "sha256": "d81c9a506cea988aaecf99c319f831f26f88e3c89dc0e73069bab7ad0280da29"
+    },
+    "RCAT": {
+      "rows": 6234,
+      "first": "2002-01-16",
+      "last": "2026-10-28",
+      "sha256": "7e50f39df11c5ffc238d4e1bda0b5dda0cbaefa4255786827478cdc54d932e25"
+    },
+    "SLN": {
+      "rows": 1543,
+      "first": "2020-09-08",
+      "last": "2026-10-28",
+      "sha256": "790e94b1390e53c9426dca0e857ce15fff329866910dac2f3a291e0feeb1d99e"
+    },
+    "CDNL": {
+      "rows": 222,
+      "first": "2025-12-10",
+      "last": "2026-10-28",
+      "sha256": "2467c5f4d4c634d372d3ab83e0bb0401526f78526102fb8a7d4e32f3ca531a94"
+    },
+    "LEU": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3bfeb2bfb13dd42a43a88494ed547f62ec2ca66cf21351954159eff0f5f41366"
+    },
+    "SLGN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "cebace950795a979b2995e451daf63ba7f283d0a27cfe3af35cbf055f552a4e6"
+    },
+    "MMS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "845c0c2a94420eb3b56450be1cc1c3bb4688939c5fe407c852b1baed12536e74"
+    },
+    "DCOM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "761acd10cffc11e6ec98add9159c8c1be5e2787796314738df5268d280cb7882"
+    },
+    "BRZE": {
+      "rows": 1241,
+      "first": "2021-11-17",
+      "last": "2026-10-28",
+      "sha256": "05e1d125d14f635ed6be79233dcaa6b7b3481bf28666cd17465e7aecb0523e39"
+    },
+    "ALC": {
+      "rows": 2937,
+      "first": "2006-11-10",
+      "last": "2026-10-28",
+      "sha256": "b4099cffb25132f1e7dcd72c1766737417d6839adb7c77a37f23d56b8642897e"
+    },
+    "COR": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b4960888f3fc35942c6afdd853d759c96461474e76cd05e82af5d0d3b0e5aa0d"
+    },
+    "TT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "bc2869d0805650c8bfdd19b47d74c05ceedde5fb617e91af900119be795ba2a9"
+    },
+    "NRIM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "26f52d2ce1470b9e50a45b1c596db47d6e2bc3fb31ee1f6354add19a7ce39803"
+    },
+    "CTS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7a9db254318822d620e44b492ef8b14bf562bbe305c985bb6527896b20c473be"
+    },
+    "SGRY": {
+      "rows": 2786,
+      "first": "2015-09-30",
+      "last": "2026-10-28",
+      "sha256": "f2aa35770dbe3ac50fed2b340eaf1586a51152a4af2b6316bfa039fb792981ba"
+    },
+    "TEX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7495d6b8881762da27cf2721fbc34dd7ee14c904803783af63ffc6f1af8aaa88"
+    },
+    "RDNT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7db77f0fcf626976353f9835e85b594aa41e725211eb944c023815f47a9a8db3"
+    },
+    "ARCC": {
+      "rows": 5552,
+      "first": "2004-10-05",
+      "last": "2026-10-28",
+      "sha256": "89265892bfb17992801e31d352b383c1622b3f21b2fb93f02857ba9947525eab"
+    },
+    "MFIC": {
+      "rows": 5677,
+      "first": "2004-04-06",
+      "last": "2026-10-28",
+      "sha256": "4bb69b17aba8a6b8d46e1c1912a226ecf86e9f52dd4cbdac15ac1f4866c3139a"
+    },
+    "GSAT": {
+      "rows": 5027,
+      "first": "2006-11-02",
+      "last": "2026-10-28",
+      "sha256": "ced804577c4c064cc3c08a01395fff4a78689f172b8aa2874d49b8dcb9bc45c8"
+    },
+    "ALG": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "74fcb898911d908692bd6e12c25884c2a925d684e4e123c28604b7a8f85fe613"
+    },
+    "ENS": {
+      "rows": 5598,
+      "first": "2004-07-30",
+      "last": "2026-10-28",
+      "sha256": "c4405adf6586913c4f3b7867889dd3fbca0a4be1defb936a92b65879caad6ba0"
+    },
+    "ULBI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "f05f0b8d8facc6f79a664a10eeef32f0d69c85719d712eee4dc37b9798609203"
+    },
+    "SWMR": {
+      "rows": 157,
+      "first": "2026-03-17",
+      "last": "2026-10-28",
+      "sha256": "d53c7a7590ae37a3f983fe2f1867ff9681293ecdc0a9e035c571c9d236c8642a"
+    },
+    "KYIV": {
+      "rows": 478,
+      "first": "2024-12-02",
+      "last": "2026-10-28",
+      "sha256": "3e5157346490c3eb7663ef0fc4951c87941e32ed13d72dbbb4b55a4e75db54e0"
+    },
+    "GEV": {
+      "rows": 650,
+      "first": "2024-03-27",
+      "last": "2026-10-28",
+      "sha256": "6b6145a4759150859171dca8236ed063d4d8ce97737beed9c64e3d10df5f1139"
+    },
+    "LITE": {
+      "rows": 2834,
+      "first": "2015-07-23",
+      "last": "2026-10-28",
+      "sha256": "0b3ff0bce632e0ac8ba13904b80926aba45dfc9e723d396243888a75e4b1d7ac"
+    },
+    "MSFT": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "648097e9f1061d974287e293259e0ee14827d629d25208c54e9d24ba62b84b5d"
+    },
+    "LNKD": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "ATVI": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "AMD": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "8b62d945fa931de16de3a82d1034405f753e455e28e148144cfd42c4edbd7661"
+    },
+    "XLNX": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "MXL": {
+      "rows": 4176,
+      "first": "2010-03-24",
+      "last": "2026-10-28",
+      "sha256": "41e2a5aaa0cb0c80cad6deefd9ef4163235fc1c59301e1f0dafa9abc22548b61"
+    },
+    "WORK": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    }
+  },
+  "method": "R(h) = 100*(P[D+h]/P[D-1]-1), h = 0,1,5,20; XNYS/XHKG sessions; optional simple stock-minus-SPY/2800.HK relative return; no interpolation; no causal identification."
+}
