@@ -13,8 +13,8 @@
     "role_matched": 824,
     "social_unverified": 188
   },
-  "price_read_started": "2026-10-29T10:10:44.650081+00:00",
-  "price_read_finished": "2026-10-29T10:10:49.822582+00:00",
+  "price_read_started": "2026-10-29T10:39:49.631842+00:00",
+  "price_read_finished": "2026-10-29T10:39:55.433650+00:00",
   "calendar_version": "4.13.2",
   "directory_sources": [
     {
@@ -26,10 +26,16 @@
       "sha256": "f63c29e3ba8a4938bd348a07b3436d0057dbd1a945846c6777495d536a837f88"
     }
   ],
-  "analysis_code_sha256": "d4570246d7339a2938b88c040dd6117740a78f77b9741129a108fc2659fcaeeb",
-  "prepared_input_sha256": "a844023e5db490c9fa5589476d601f8e79eca0c3317908afbc7351c5c1181e80",
+  "analysis_code_sha256": "c0daa289787a0b120bb3eb1a244514cc9df686b0fbfca4148ec1f579cfe8ff6d",
+  "prepared_input_sha256": "f60e4bb70d5bb4a9a8a1a3c83b0199af21d82a03222fcaf3a825ada4f76ff144",
   "summary": {
-    "verified": 8,
+    "verified": 67,
+    "verified_deals": 48,
+    "verified_pairs": 32,
+    "verified_any": 67,
+    "verified_session_aligned": 10,
+    "verified_first": "2007-11-08",
+    "verified_last": "2024-02-19",
     "archive": 11927,
     "role_matched": 824,
     "any_day0": 817,
@@ -61,7 +67,7 @@
       "2026": 7060
     }
   },
-  "input_sha256": "e29a47dfd05a725c13b7614b8f5e282c201ba446c8f92dedaa8c4c889f534a3a",
+  "input_sha256": "cce189b9e6d1abb15845de574e0ded320a1a1ef3660a12c1667fb9c028919973",
   "source": "qta.store.stockfiles.connect → formal data/stocks year/security shards",
   "price_manifest": {
     "DOV": {
@@ -2697,6 +2703,366 @@
       "first": null,
       "last": null,
       "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "HPE": {
+      "rows": 2773,
+      "first": "2015-10-19",
+      "last": "2026-10-28",
+      "sha256": "01064aa9e33577380ac0377cb9d1d93588522b0c4bf61df4f28e1601d3ee0ae4"
+    },
+    "JNPR": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "SNPS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "befb2b19fde34976b03f558f53d666b005978172014d7d64939216ee8d675ce7"
+    },
+    "ANSS": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "IBM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "803c2583d80b4941604b6739c95a209fbd88ad8304ef78afb3ce69362b1efbc6"
+    },
+    "RHT": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "CSCO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "46f755efc5862498395ea47535aebe099f03c7b7dec10bbb600c7f2e8cb4a5b2"
+    },
+    "SPLK": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "PFE": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c55029bc0ecf130c4814f8ddfe52b902039495b9cd18d75f9ddd1d5a318f1be5"
+    },
+    "AZN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7f7b817aefcfb24958dd16271574d6e9e6011fcd2735942975eebec0b307d849"
+    },
+    "MDLZ": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "3c350691e770a0d9729c0ff81dade27fa3733c88eae4be898dce1092d1ae09c1"
+    },
+    "HSY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "51ddc4719ea25e34bdcf987eb2c5c6535fe86b701a1927e90ff931f25b7ae0a7"
+    },
+    "KHC": {
+      "rows": 2847,
+      "first": "2015-07-06",
+      "last": "2026-10-28",
+      "sha256": "d3d4f9f0d430c8a21b6fe0a352a88b2d8fc194974c659c4661b258efc22718a8"
+    },
+    "UL": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "d32c7b0aa7ef906ff20e195917aa7d723a269f54f9ad83fef9b52c0dfb12e5f1"
+    },
+    "KLAC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "0669e9e5aced8bc386681e83f870bd4092031e66c88c51fa328b9ff8165f507a"
+    },
+    "XRX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "a5faccdcf63297c827ea31b95571c8c1e0656979ec2dfd8885e6b0902ef24eb1"
+    },
+    "HPQ": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "9257fbf782fb36678cf676677b1929f7e5b8e23c465d129f41555fce48765dbd"
+    },
+    "WFM": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "ONEM": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "IRBT": {
+      "rows": 5060,
+      "first": "2005-11-09",
+      "last": "2025-12-19",
+      "sha256": "9c7491035f55f7e06bee343e6e34955513712be9da0614d5e9cea1ae6fdf5fae"
+    },
+    "FIT": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "MNDT": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "NUAN": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "NOK": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "98e11bca349d306fa76404ad82aeeccc9b4b050afa5c5ed78e232af5653ad29b"
+    },
+    "TSEM": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "68a6e4f6881a647a2cd89223e2cc9e9b4778f9b156d7b1a0fbb2a54c5cd93631"
+    },
+    "MLNX": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "IPHI": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "CVS": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "49440712c8cb22cdc44581a2f194d5cdb325257de5fc601aef6ad4ed47386dd4"
+    },
+    "AET": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "CI": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "8749f35dc90140b05f02963d01bb806b9c7d86e4b959d9f1fb62d67d53bb7c6c"
+    },
+    "ESRX": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "BMY": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "6783b1b625055db1510d3776abf9caf484c28359756f3ded995a8184c9f37c66"
+    },
+    "CELG": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "AGN": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "SGEN": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "MRK": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "713c824a643813014aa3319a1adb2791fdab3d59f8c5c16de62705fc98759ca3"
+    },
+    "RXDX": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "AMGN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "01c3df76fec58ad317127d980c73d120f791ee50be91b65b56ad9da9c2abb69e"
+    },
+    "HZNP": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "ABMD": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "PXD": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "CVX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "13d57efcbc8f62d5051f445be466db654daae3153f3e08db41da5cf8badd98f2"
+    },
+    "HES": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "COF": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "71c4d5278b0eb2b9a76eb35ece80da4ccfebc79f2a4ff14ba1773dec1ca91f81"
+    },
+    "DFS": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "TD": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "c621a99e17e19e4d55a48c483aa66f7cfc1f6fb294206d827d4c88ba9a951180"
+    },
+    "FHN": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "746457ebf40fc54e310880fe4dce4848c77d5d865366b43e237ce12a6b96984b"
+    },
+    "9988.HK": {
+      "rows": 1703,
+      "first": "2019-11-26",
+      "last": "2026-10-29",
+      "sha256": "869239838ede48b3feff6d1e0b5f56859b1c2b1d8ba595a4268eb0d363a97508"
+    },
+    "6808.HK": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "SOGO": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "SOHU": {
+      "rows": 6245,
+      "first": "2002-01-02",
+      "last": "2026-10-27",
+      "sha256": "9e1e93870e6356d79ff393941d60dd2a75d7fcac9528835062c729bd80182274"
+    },
+    "BABA": {
+      "rows": 3045,
+      "first": "2014-09-19",
+      "last": "2026-10-28",
+      "sha256": "75c5831f1e56675a6a3a805fc39d548e1a5ae6f867600628bb6128ef6dfe3eb6"
+    },
+    "YOKU": {
+      "rows": 0,
+      "first": null,
+      "last": null,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "NTES": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7da886af404b94798a5f749f0c594ccce14ffb55101a70c38caa56895d8dde2f"
+    },
+    "0992.HK": {
+      "rows": 6165,
+      "first": "2002-01-01",
+      "last": "2026-10-29",
+      "sha256": "7eadf972baa74be6221d9ac984b58bdf51708fb19c18f2f0f16a4252cb2fc5ec"
+    },
+    "BHP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "71b849cc14fad10dfaf6cce8c6925849c77831deefe1ee4bd5c6fcffc70d4efc"
+    },
+    "RIO": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "1b1edc125d72f4ab84bd7d1225b2d0058ab826f65e2ac1915de0db388c5a28d0"
+    },
+    "CP": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "7284a311e1d5c0cd2284fa6f0351b50f595e88d3aced35b5dec768a57dc11d63"
+    },
+    "NSC": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "98852fde3bafe6feabda75446b167799e5274e1109bb8a7ba0f7c2e2382d07d6"
+    },
+    "CSX": {
+      "rows": 6246,
+      "first": "2002-01-02",
+      "last": "2026-10-28",
+      "sha256": "b19e12f317ec231d08929f2d88848378e9d8a1ad5dfec13cbc9e1c8b1221d7cd"
     }
   },
   "method": "R(h) = 100*(P[D+h]/P[D-1]-1), h = 0,1,5,20; XNYS/XHKG sessions; optional simple stock-minus-SPY/2800.HK relative return; no interpolation; no causal identification."
